@@ -115,17 +115,55 @@
                         <span id="checkphone">(*选填,请如实填写)</span>
                      </div>
                      <div class="changeinfo">
-                        <span>物品类别：</span>
+                        <span>自媒体平台：</span>
                         <select class="in_info" name="catelogId">
-                            <option value="1">闲置数码</option>
-                            <option value="2">校园代步</option>
-                            <option value="3">电器日用</option>
-                            <option value="4">图书教材</option>
-                            <option value="5">美妆衣物</option>
-                            <option value="6">运动棋牌</option>
-                            <option value="7">票券小物</option>
+                            <%--1、微信公众号 2、头条号 3、企鹅号 4、百家号 5、网易号 6、搜狐号 7、大鱼号--%>
+                            <%--8、一点号 9、凤凰号 10、东方号 11、众媒号 12、新浪看点 13、简书 14、趣头条--%>
+                            <%--15、支付宝生活号 16、京东号 17、易信 18、看荐 19、号外号 20、封面号 21、迅雷号22、QQ公众号--%>
+                            <option value="1">微信公众号</option>
+                            <option value="2">头条号</option>
+                            <option value="3">企鹅号</option>
+                            <option value="4">百家号</option>
+                            <option value="5">网易号</option>
+                            <option value="6">搜狐号</option>
+                            <option value="7">大鱼号</option>
+                            <option value="8">一点号</option>
+                            <option value="9">凤凰号</option>
+                            <option value="10">东方号</option>
+                            <option value="11">众媒号</option>
+                            <option value="12">简书</option>
+                            <option value="13">趣头条</option>
+                            <option value="14">支付宝生活号</option>
+                            <option value="15">京东号</option>
+                            <option value="16">易信</option>
+                            <option value="17">看荐</option>
+                            <option value="18">号外号</option>
+                            <option value="19">封面号</option>
+                            <option value="20">QQ公众号</option>
+
+                            <option value="21">抖音</option>
+                            <option value="22">快手</option>
+                            <option value="23">火山小视频</option>
+                            <option value="24">秒拍</option>
+                            <option value="25">美拍</option>
+                            <option value="26">西瓜视频</option>
+                            <option value="27">梨视频</option>
+                            <option value="28">微视</option>
+                            <option value="29">小咖秀</option>
+                            <%--<option value="30">东方号</option>--%>
+                            <%--<option value="31">众媒号</option>--%>
+                            <%--<option value="32">简书</option>--%>
+                            <%--<option value="33">趣头条</option>--%>
+                            <%--<option value="34">支付宝生活号</option>--%>
+                            <%--<option value="35">京东号</option>--%>
+                            <%--<option value="36">易信</option>--%>
+                            <%--<option value="37">看荐</option>--%>
+                            <%--<option value="38">号外号</option>--%>
+                            <%--<option value="39">封面号</option>--%>
+                            <%--<option value="40">QQ公众号</option>--%>
                         </select>
                     </div>
+
                     <div class="changeinfo" id="dir">
                         <span>商品描述：</span>
                         <div class="sha">

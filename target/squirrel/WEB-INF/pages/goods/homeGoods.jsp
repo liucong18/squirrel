@@ -220,6 +220,7 @@
 
     描述：左侧导航条
 -->
+
 <div ng-controller="sidebarController" class="sidebar stark-components ng-scope">
     <li ng-class="{true: 'active'}[isAll]">
         <a href="/goods/catelog/1" class="index">
@@ -230,52 +231,214 @@
     <li ng-class="{true: 'active'}[isDigital]">
         <a href="/goods/catelog/1" class="digital">
             <img src="../img/digital.png"  />
-            <em>闲置数码</em>
+            <em>微信公众号</em>
         </a>
     </li>
     <li ng-class="{true: 'active'}[isRide]">
         <a href="/goods/catelog/2" class="ride">
             <img src="../img/ride.png"/>
-            <em>校园代步</em>
+            <em>头条号</em>
         </a>
     </li>
     <li ng-class="{true: 'active'}[isCommodity]">
         <a href="/goods/catelog/3" class="commodity">
             <img src="../img/commodity.png"/>
-            <em>电器日用</em>
+            <em>企鹅号</em>
         </a>
     </li>
     <li ng-class="{true: 'active'}[isBook]">
         <a href="/goods/catelog/4" class="book">
             <img src="../img/book.png"/>
-            <em>图书教材</em>
+            <em>百家号</em>
         </a>
     </li>
     <li ng-class="{true: 'active'}[isMakeup]">
         <a href="/goods/catelog/5" class="makeup">
             <img src="../img/makeup.png"/>
-            <em>美妆衣物</em>
+            <em>网易号</em>
         </a>
     </li>
     <li ng-class="{true: 'active'}[isSport]">
         <a href="/goods/catelog/6" class="sport">
             <img src="../img/sport.png"/>
-            <em>运动棋牌</em>
+            <em>搜狐号</em>
         </a>
     </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>大鱼号</em>
+        </a>
+    </li>
+    <%--1、微信公众号 2、头条号 3、企鹅号 4、百家号 5、网易号 6、搜狐号 7、大鱼号--%>
+    <%--8、一点号 9、凤凰号 10、东方号 11、众媒号 12、新浪看点 13、简书 14、趣头条--%>
+    <%--15、支付宝生活号 16、京东号 17、易信 18、看荐 19、号外号 20、封面号 21、迅雷号22、QQ公众号--%>
     <li ng-class="{true: 'active'}[isSmallthing]">
         <a href="/goods/catelog/7" class="smallthing">
             <img src="../img/smallthing.png"/>
             <em>票券小物</em>
         </a>
     </li>
-    <div class="info">
-        <a href="" target="_blank">关于我们</a><br>
-        <a href="">郭一萱</a><br>
-        <a href="">叶幼宝</a><br>
-        <a href="">陈梦婷</a><br>
-        <a href="">李俊杰</a><br>
-    </div>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>一点号</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>凤凰号</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>东方号</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>众媒号</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>新浪看点</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>简书</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>趣头条</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>支付宝生活号</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>京东号</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>易信</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>看荐</em>
+        </a>
+    </li><li ng-class="{true: 'active'}[isSmallthing]">
+    <a href="/goods/catelog/7" class="smallthing">
+        <img src="../img/smallthing.png"/>
+        <em>号外号</em>
+    </a>
+</li><li ng-class="{true: 'active'}[isSmallthing]">
+    <a href="/goods/catelog/7" class="smallthing">
+        <img src="../img/smallthing.png"/>
+        <em>封面号</em>
+    </a>
+</li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>迅雷号</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>QQ公众号</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>抖音</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>快手</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>火山小视频</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>秒拍</em>
+
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>美拍</em>
+
+        </a>
+    </li>
+
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>西瓜视频</em>
+
+        </a>
+    </li>
+
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>梨视频</em>
+
+        </a>
+    </li>
+
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>微视</em>
+
+        </a>
+    </li>
+
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>小咖秀</em>
+
+        </a>
+    </li>
+
+    <%--<div class="info">--%>
+        <%--<a href="" target="_blank">关于我们</a><br>--%>
+        <%--<a href="">郭一萱</a><br>--%>
+        <%--<a href="">叶幼宝</a><br>--%>
+        <%--<a href="">陈梦婷</a><br>--%>
+        <%--<a href="">李俊杰</a><br>--%>
+    <%--</div>--%>
 </div>
 <!--
     描述：右侧显示部分

@@ -265,13 +265,32 @@
             <em>票券小物</em>
         </a>
     </li>
-    <div class="info">
-        <a href="" target="_blank">关于我们</a><br>
-        <a href="">郭一萱</a><br>
-        <a href="">叶幼宝</a><br>
-        <a href="">陈梦婷</a><br>
-        <a href="">李俊杰</a><br>
-    </div>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="<%=basePath%>goods/catelog/7" class="smallthing">
+            <img src="<%=basePath%>img/smallthing.png"/>
+            <em>票券小物</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="<%=basePath%>goods/catelog/7" class="smallthing">
+            <img src="<%=basePath%>img/smallthing.png"/>
+            <em>票券小物</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="<%=basePath%>goods/catelog/7" class="smallthing">
+            <img src="<%=basePath%>img/smallthing.png"/>
+            <em>票券小物</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isSmallthing]">
+        <a href="<%=basePath%>goods/catelog/7" class="smallthing">
+            <img src="<%=basePath%>img/smallthing.png"/>
+            <em>票券小物</em>
+        </a>
+    </li>
+
+
 </div>
 <!--
     描述：右侧显示部分

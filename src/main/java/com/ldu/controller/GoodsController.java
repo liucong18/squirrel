@@ -246,16 +246,18 @@ public class GoodsController {
         User cur_user = (User)request.getSession().getAttribute("cur_user");
 
         goods.setUserId(cur_user.getId());
-        int i = goodsService.addGood(goods,10);//在goods表中插入物品
+        //在goods表中插入物品
+        int i = goodsService.addGood(goods,10);
         //返回插入的该物品的id
         int goodsId = goods.getId();
         ima.setGoodsId(goodsId);
-        imageService.insert(ima);//在image表中插入商品图片
+        //在image表中插入商品图片
+        imageService.insert(ima);
         //发布商品后，catlog的number+1，user表的goods_num+1，更新session的值
         int number = cur_user.getGoodsNum();
-        Integer calelog_id = goods.getCatelogId();
-        Catelog catelog = catelogService.selectByPrimaryKey(calelog_id);
-        catelogService.updateCatelogNum(calelog_id,catelog.getNumber()+1);
+        Integer calelogId = goods.getCatelogId();
+        Catelog catelog = catelogService.selectByPrimaryKey(calelogId);
+        catelogService.updateCatelogNum(calelogId,catelog.getNumber()+1);
         userService.updateGoodsNum(cur_user.getId(),number+1);
         cur_user.setGoodsNum(number+1);
         request.getSession().setAttribute("cur_user",cur_user);//修改session值
