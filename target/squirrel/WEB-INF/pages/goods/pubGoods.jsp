@@ -117,15 +117,23 @@
                         <span id="checkphone">(*选填,请如实填写)</span>
                     </div>
                     <div class="changeinfo">
-                        <span>物品类别：</span>
+                        <span>自媒体平台：</span>
                         <select class="in_info" name="catelogId">
-                            <option value="1">闲置数码</option>
-                            <option value="2">校园代步</option>
-                            <option value="3">电器日用</option>
-                            <option value="4">图书教材</option>
-                            <option value="5">美妆衣物</option>
-                            <option value="6">运动棋牌</option>
-                            <option value="7">票券小物</option>
+                            <option value="1">微信公众号</option>
+                            <option value="2">头条号</option>
+                            <option value="3">企鹅号</option>
+                            <option value="4">百家号</option>
+                            <option value="5">网易号</option>
+                            <option value="6">搜狐号</option>
+                            <option value="7">UC大鱼号</option>
+                            <option value="8">一点号</option>
+                            <option value="9">趣头条</option>
+                            <option value="10">抖音小视频</option>
+                            <option value="11">快手小视频</option>
+                            <option value="12">火山小视频</option>
+                            <option value="13">腾讯微视</option>
+                            <option value="14">西瓜视频</option>
+                            <option value="25">小咖秀</option>
                         </select>
                     </div>
                     <div class="changeinfo" id="dir">

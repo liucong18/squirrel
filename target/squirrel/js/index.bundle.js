@@ -36679,25 +36679,25 @@
 	            $scope.isAll = true;
 	            break;
 	        case '/category/digital':
-	            $scope.isDigital = true;
+	            $scope.isWeChat = true;
 	            break;
 	        case '/category/ride':
-	            $scope.isRide = true;
+	            $scope.isTouTiao = true;
 	            break;
 	        case '/category/commodity':
-	            $scope.isCommodity = true;
+	            $scope.isQiEr = true;
 	            break;
 	        case '/category/book':
-	            $scope.isBook = true;
+	            $scope.isBaiJia = true;
 	            break;
 	        case '/category/makeup':
-	            $scope.isMakeup = true;
+	            $scope.isWangYi = true;
 	            break;
 	        case '/category/sport':
-	            $scope.isSport = true;
+	            $scope.isShouHu = true;
 	            break;
 	        case '/category/smallthing':
-	            $scope.isSmallthing = true;
+	            $scope.isDaYu = true;
 	            break;
 	    }
 	    BaseService.item.getTodayNewItemAmount().then(function(result) {
@@ -36741,25 +36741,25 @@
 	    var isKeyword = false;
 	    switch (window.location.pathname) {
 	        case '/category/digital':
-	            category = '闲置数码'
+	            category = '微信公众号'
 	            break;
 	        case '/category/ride':
-	            category = '校园代步'
+	            category = '头条号'
 	            break;
 	        case '/category/commodity':
-	            category = '电器日用'
+	            category = '企鹅号'
 	            break;
 	        case '/category/book':
-	            category = '图书教材'
+	            category = '百家号'
 	            break;
 	        case '/category/makeup':
-	            category = '美妆衣物'
+	            category = '网易号'
 	            break;
 	        case '/category/sport':
-	            category = '运动棋牌'
+	            category = '搜狐号'
 	            break;
 	        case '/category/smallthing':
-	            category = '票券小物'
+	            category = 'UC大鱼号'
 	            break;
 	        case '/category/all':
 	            category = 'all'

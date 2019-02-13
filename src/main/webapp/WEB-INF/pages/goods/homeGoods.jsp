@@ -51,12 +51,14 @@
 -->
 <div ng-controller="headerController" class="header stark-components navbar-fixed ng-scope">
     <nav class="white nav1">
+
         <div class="nav-wrapper">
             <a href="<%=basePath%>goods/homeGoods" class="logo">
-                <em class="em1">龙院</em>
-                <em class="em2">二手工坊</em>
-                <em class="em3">lyun</em>
+                <em class="em1">自媒体</em>
+                <em class="em2">广告投放平台</em>
+                <em class="em3"> abc</em>
             </a>
+
             <div class="nav-wrapper search-bar">
                 <form ng-submit="search()" class="ng-pristine ng-invalid ng-invalid-required" action="/goods/search">
                     <div class="input-field">
@@ -219,6 +221,21 @@
 <!--
 
     描述：左侧导航条
+                            <option value="1">微信公众号</option>
+                            <option value="2">头条号</option>
+                            <option value="3">企鹅号</option>
+                            <option value="4">百家号</option>
+                            <option value="5">网易号</option>
+                            <option value="6">搜狐号</option>
+                            <option value="7">UC大鱼号</option>
+                            <option value="8">一点号</option>
+                            <option value="9">趣头条</option>
+                            <option value="10">抖音小视频</option>
+                            <option value="11">快手小视频</option>
+                            <option value="12">火山小视频</option>
+                            <option value="13">腾讯微视</option>
+                            <option value="14">西瓜视频</option>
+                            <option value="25">小咖秀</option>
 -->
 
 <div ng-controller="sidebarController" class="sidebar stark-components ng-scope">
@@ -228,217 +245,97 @@
             <em>最新发布</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isDigital]">
+    <li ng-class="{true: 'active'}[isWeChat]">
         <a href="/goods/catelog/1" class="digital">
-            <img src="../img/digital.png"  />
+            <img src="../img/WeChat.jpg"  />
             <em>微信公众号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isRide]">
+    <li ng-class="{true: 'active'}[isTouTiao]">
         <a href="/goods/catelog/2" class="ride">
-            <img src="../img/ride.png"/>
+            <img src="../img/TouTiao.jpg"/>
             <em>头条号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isCommodity]">
+    <li ng-class="{true: 'active'}[isQiEr]">
         <a href="/goods/catelog/3" class="commodity">
-            <img src="../img/commodity.png"/>
+            <img src="../img/QiEr.jpg"/>
             <em>企鹅号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isBook]">
+    <li ng-class="{true: 'active'}[isBaiJia]">
         <a href="/goods/catelog/4" class="book">
-            <img src="../img/book.png"/>
+            <img src="../img/BaiJia.jpg"/>
             <em>百家号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isMakeup]">
+    <li ng-class="{true: 'active'}[isWangYi]">
         <a href="/goods/catelog/5" class="makeup">
-            <img src="../img/makeup.png"/>
+            <img src="../img/WangYi.jpg"/>
             <em>网易号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSport]">
+    <li ng-class="{true: 'active'}[isShouHu]">
         <a href="/goods/catelog/6" class="sport">
-            <img src="../img/sport.png"/>
+            <img src="../img/ShouHu.jpg"/>
             <em>搜狐号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
+    <li ng-class="{true: 'active'}[isDaYu]">
         <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>大鱼号</em>
+            <img src="../img/DaYu.jpg"/>
+            <em>UC大鱼号</em>
         </a>
     </li>
-    <%--1、微信公众号 2、头条号 3、企鹅号 4、百家号 5、网易号 6、搜狐号 7、大鱼号--%>
-    <%--8、一点号 9、凤凰号 10、东方号 11、众媒号 12、新浪看点 13、简书 14、趣头条--%>
-    <%--15、支付宝生活号 16、京东号 17、易信 18、看荐 19、号外号 20、封面号 21、迅雷号22、QQ公众号--%>
-    <li ng-class="{true: 'active'}[isSmallthing]">
+    <li ng-class="{true: 'active'}[isYiDian]">
         <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>票券小物</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
+            <img src="../img/YiDian.jpg"/>
             <em>一点号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
+    <li ng-class="{true: 'active'}[isQuTouTiao]">
         <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>凤凰号</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>东方号</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>众媒号</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>新浪看点</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>简书</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
+            <img src="../img/QuTouTiao.jpg"/>
             <em>趣头条</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
+    <li ng-class="{true: 'active'}[isDouYin]">
         <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>支付宝生活号</em>
+            <img src="../img/DouYin.jpg"/>
+            <em>抖音小视频</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
+    <li ng-class="{true: 'active'}[isKuaiShou]">
         <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>京东号</em>
+            <img src="../img/KuaiShou.jpg"/>
+            <em>快手小视频</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
+    <li ng-class="{true: 'active'}[isHuoShan]">
         <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>易信</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>看荐</em>
-        </a>
-    </li><li ng-class="{true: 'active'}[isSmallthing]">
-    <a href="/goods/catelog/7" class="smallthing">
-        <img src="../img/smallthing.png"/>
-        <em>号外号</em>
-    </a>
-</li><li ng-class="{true: 'active'}[isSmallthing]">
-    <a href="/goods/catelog/7" class="smallthing">
-        <img src="../img/smallthing.png"/>
-        <em>封面号</em>
-    </a>
-</li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>迅雷号</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>QQ公众号</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>抖音</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>快手</em>
-        </a>
-    </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
+            <img src="../img/HuoShan.jpg"/>
             <em>火山小视频</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
+    <li ng-class="{true: 'active'}[isWeiShi]">
         <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>秒拍</em>
-
+            <img src="../img/WeiShi.jpg"/>
+            <em>腾讯微视</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
+    <li ng-class="{true: 'active'}[isXiGua]">
         <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>美拍</em>
-
-        </a>
-    </li>
-
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
+            <img src="../img/XiGua.jpg"/>
             <em>西瓜视频</em>
-
         </a>
     </li>
-
-    <li ng-class="{true: 'active'}[isSmallthing]">
+    <li ng-class="{true: 'active'}[isXiaoKa]">
         <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>梨视频</em>
-
-        </a>
-    </li>
-
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
-            <em>微视</em>
-
-        </a>
-    </li>
-
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="/goods/catelog/7" class="smallthing">
-            <img src="../img/smallthing.png"/>
+            <img src="../img/XiaoKa.jpg"/>
             <em>小咖秀</em>
-
         </a>
     </li>
 
-    <%--<div class="info">--%>
-        <%--<a href="" target="_blank">关于我们</a><br>--%>
-        <%--<a href="">郭一萱</a><br>--%>
-        <%--<a href="">叶幼宝</a><br>--%>
-        <%--<a href="">陈梦婷</a><br>--%>
-        <%--<a href="">李俊杰</a><br>--%>
-    <%--</div>--%>
 </div>
 <!--
     描述：右侧显示部分
@@ -448,23 +345,25 @@
         描述：右侧banner（图片）部分
     -->
     <div class="slider-wapper">
+        <img src="../img/Basic.png" />
         <div class="slider" style="height: 440px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
             <ul class="slides" style="height: 400px;">
                 <li class="active" style="opacity: 1;">
                     <a href="">
-                        <div class="bannerimg">
-                            <ul class="bannerul">
-                                <p class="text1">亲爱的同学们：</p>
-                                <p class="text2">欢迎来到龙岩学院Squirrel校园二手工坊。临近毕业季的</p>
-                                <p class="text3">你，是否有太多的闲置与校友分享，为了追求更好的校园服</p>
-                                <p class="text4">务，我们打造了一个全新的校园平台——<span>Squirrel二手工坊</p>
-                                <p class="text5">这里有更多的闲置分享，更自由的校园话题讨论，你想要的，都在这里。</p>
-                                <p class="text6">加入Squirrel，你的大学，应更精彩。</p>
-                            </ul>
-                            <div class="logoimg">
-                                <img src="../img/p_logo.jpg" />
-                            </div>
-                        </div>
+                        <img src="../img/Basic.png" />
+                        <%--<div class="bannerimg">--%>
+                            <%--<ul class="bannerul">--%>
+                                <%--<p class="text1">亲爱的同学们：</p>--%>
+                                <%--<p class="text2">欢迎来到龙岩学院Squirrel校园二手工坊。临近毕业季的</p>--%>
+                                <%--<p class="text3">你，是否有太多的闲置与校友分享，为了追求更好的校园服</p>--%>
+                                <%--<p class="text4">务，我们打造了一个全新的校园平台——<span>Squirrel二手工坊</p>--%>
+                                <%--<p class="text5">这里有更多的闲置分享，更自由的校园话题讨论，你想要的，都在这里。</p>--%>
+                                <%--<p class="text6">加入Squirrel，你的大学，应更精彩。</p>--%>
+                            <%--</ul>--%>
+                            <%--<div class="logoimg">--%>
+                                <%--<img src="../img/p_logo.jpg" />--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
                     </a>
                 </li>
             </ul>

@@ -218,60 +218,101 @@
 -->
 <div ng-controller="sidebarController" class="sidebar stark-components ng-scope">
     <li ng-class="{true: 'active'}[isAll]">
-        <a href="<%=basePath%>goods/catelog/1" class="index">
-            <img src="<%=basePath%>img/index.png">
+        <a href="/goods/catelog/1" class="index">
+            <img src="../img/index.png">
             <em>最新发布</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isDigital]">
+    <li ng-class="{true: 'active'}[isWeChat]">
         <a href="/goods/catelog/1" class="digital">
-            <img src="<%=basePath%>img/digital.png"  />
-            <em>闲置数码</em>
+            <img src="../img/digital.png"  />
+            <em>微信公众号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isRide]">
-        <a href="<%=basePath%>goods/catelog/2" class="ride">
-            <img src="<%=basePath%>img/ride.png"/>
-            <em>校园代步</em>
+    <li ng-class="{true: 'active'}[isTouTiao]">
+        <a href="/goods/catelog/2" class="ride">
+            <img src="../img/ride.png"/>
+            <em>头条号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isCommodity]">
-        <a href="<%=basePath%>goods/catelog/3" class="commodity">
-            <img src="<%=basePath%>img/commodity.png"/>
-            <em>电器日用</em>
+    <li ng-class="{true: 'active'}[isQiEr]">
+        <a href="/goods/catelog/3" class="commodity">
+            <img src="../img/commodity.png"/>
+            <em>企鹅号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isBook]">
-        <a href="<%=basePath%>goods/catelog/4" class="book">
-            <img src="<%=basePath%>img/book.png"/>
-            <em>图书教材</em>
+    <li ng-class="{true: 'active'}[isBaiJia]">
+        <a href="/goods/catelog/4" class="book">
+            <img src="../img/book.png"/>
+            <em>百家号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isMakeup]">
-        <a href="<%=basePath%>goods/catelog/5" class="makeup">
-            <img src="<%=basePath%>img/makeup.png"/>
-            <em>美妆衣物</em>
+    <li ng-class="{true: 'active'}[isWangYi]">
+        <a href="/goods/catelog/5" class="makeup">
+            <img src="../img/makeup.png"/>
+            <em>网易号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSport]">
-        <a href="<%=basePath%>goods/catelog/6" class="sport">
-            <img src="<%=basePath%>img/sport.png"/>
-            <em>运动棋牌</em>
+    <li ng-class="{true: 'active'}[isShouHu]">
+        <a href="/goods/catelog/6" class="sport">
+            <img src="../img/sport.png"/>
+            <em>搜狐号</em>
         </a>
     </li>
-    <li ng-class="{true: 'active'}[isSmallthing]">
-        <a href="<%=basePath%>goods/catelog/7" class="smallthing">
-            <img src="<%=basePath%>img/smallthing.png"/>
-            <em>票券小物</em>
+    <li ng-class="{true: 'active'}[isDaYu]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>UC大鱼号</em>
         </a>
     </li>
-    <div class="info">
-        <a href="" target="_blank">关于我们</a><br>
-        <a href="">郭一萱</a><br>
-        <a href="">叶幼宝</a><br>
-        <a href="">陈梦婷</a><br>
-        <a href="">李俊杰</a><br>
-    </div>
+    <li ng-class="{true: 'active'}[isYiDian]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>一点号</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isQuTouTiao]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>趣头条</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isDouYin]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>抖音小视频</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isKuaiShou]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>快手小视频</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isHuoShan]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>火山小视频</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isWeiShi]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>腾讯微视</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isXiGua]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>西瓜视频</em>
+        </a>
+    </li>
+    <li ng-class="{true: 'active'}[isXiaoKa]">
+        <a href="/goods/catelog/7" class="smallthing">
+            <img src="../img/smallthing.png"/>
+            <em>小咖秀</em>
+        </a>
+    </li>
 </div>
 <!--
     描述：右侧显示部分
