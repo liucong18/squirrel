@@ -89,7 +89,7 @@ ul {
 }
 
 #user_nav .user_info {
-    width: 200px;
+    width: 300px;
     height: 265px;
     position: relative;
     margin-top: 20px
@@ -245,14 +245,14 @@ ul {
 }
 
 #user_nav .home_nav ul {
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
     overflow: hidden;
     margin-bottom: 10px
 }
 
 #user_nav .home_nav ul li {
-    width: 150px;
+    width: 300px;
     height: 40px;
     margin: 5px 25px;
     color: #b4b4b4;

@@ -51,11 +51,13 @@
 <div ng-controller="headerController" class="header stark-components navbar-fixed ng-scope">
     <nav class="white nav1">
         <div class="nav-wrapper">
+
             <a href="<%=basePath%>goods/homeGoods" class="logo">
-                <em class="em1">龙院</em>
-                <em class="em2">二手工坊</em>
-                <em class="em3">lyun</em>
+                <em class="em1">enenjoy</em>
+                <%--<em class="em2">二手工坊</em>--%>
+                <em class="em3">C2C内容电商平台</em>
             </a>
+
             <div class="nav-wrapper search-bar">
                 <form ng-submit="search()" class="ng-pristine ng-invalid ng-invalid-required" action="">
                     <div class="input-field">
@@ -220,8 +222,8 @@
 <div ng-controller="sidebarController" class="sidebar stark-components ng-scope">
     <li ng-class="{true: 'active'}[isAll]">
         <a href="/goods/catelog/1" class="index">
-            <img src="<%=basePath%>img/index.png">
-            <em>最新发布</em>
+            <img src="<%=basePath%>img/ShouYe.jpg">
+            <em>首页</em>
         </a>
     </li>
     <li ng-class="{true: 'active'}[isWeChat]">
@@ -321,11 +323,10 @@
 -->
 <div class="main-content">
     <!--
-        描述：最新发布
+        描述：首页
     -->
     <div class="index-title">
         <a href="">${catelog.name}</a>
-        <hr class="hr1">
         <hr class="hr2">
     </div>
     <div class="waterfoo stark-components row">

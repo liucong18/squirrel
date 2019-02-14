@@ -12,6 +12,9 @@
     <result column="end_time" property="endTime" jdbcType="VARCHAR" />
     <result column="commet_num" property="commetNum" jdbcType="INTEGER" />
     <result column="polish_time" property="polishTime" jdbcType="VARCHAR" />
+    <result column="zhanghaoId" property="zhanghaoId" jdbcType="VARCHAR" />
+    <result column="weChat" property="weChat" jdbcType="VARCHAR" />
+    <result column="fans" property="fans" jdbcType="VARCHAR" />
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.ldu.pojo.Goods" extends="BaseResultMap" >
     <result column="describle" property="describle" jdbcType="LONGVARCHAR" />
@@ -72,11 +75,12 @@
   <insert id="insert" parameterType="com.ldu.pojo.Goods" useGeneratedKeys="true" keyProperty="id">
     insert into goods (id, catelog_id, user_id,
     name, price, real_price, start_time,
-    end_time, polish_time, commet_num, describle)
+    end_time, polish_time, commet_num, describle,
+    zhanghaoId, weChat, fans)
     values (#{id,jdbcType=INTEGER}, #{catelogId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER},
     #{name,jdbcType=VARCHAR}, #{price,jdbcType=REAL}, #{realPrice,jdbcType=REAL}, #{startTime,jdbcType=VARCHAR},
-    #{endTime,jdbcType=VARCHAR}, #{polishTime,jdbcType=VARCHAR}, #{commetNum,jdbcType=INTEGER}, #{describle,jdbcType=LONGVARCHAR}
-    )
+    #{endTime,jdbcType=VARCHAR}, #{polishTime,jdbcType=VARCHAR}, #{commetNum,jdbcType=INTEGER}, #{describle,jdbcType=LONGVARCHAR},
+    #{zhanghaoId,jdbcType=VARCHAR}, #{weChat,jdbcType=VARCHAR}, #{fans,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.ldu.pojo.Goods" >
     insert into goods
@@ -114,6 +118,15 @@
       <if test="describle != null" >
         describle,
       </if>
+      <if test="zhanghaoId != null" >
+        zhanghaoId,
+      </if>
+      <if test="weChat != null" >
+        weChat,
+      </if>
+      <if test="fans != null" >
+        fans,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -148,6 +161,15 @@
       </if>
       <if test="describle != null" >
         #{describle,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="zhanghaoId != null" >
+        #{zhanghaoId,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="weChat != null" >
+        #{weChat,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="fans != null" >
+        #{fans,jdbcType=LONGVARCHAR},
       </if>
     </trim>
   </insert>
@@ -184,6 +206,15 @@
       <if test="describle != null" >
         describle = #{describle,jdbcType=LONGVARCHAR},
       </if>
+      <if test="zhanghaoId != null" >
+        zhanghaoId,
+      </if>
+      <if test="weChat != null" >
+        weChat,
+      </if>
+      <if test="fans != null" >
+        fans,
+      </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
@@ -198,7 +229,10 @@
       end_time = #{endTime,jdbcType=VARCHAR},
       polish_time = #{polishTime,jdbcType=VARCHAR},
       commet_num = #{commetNum,jdbcType=INTEGER},
-      describle = #{describle,jdbcType=LONGVARCHAR}
+      describle = #{describle,jdbcType=LONGVARCHAR},
+      zhanghaoId = #{zhanghaoId,jdbcType=LONGVARCHAR},
+      weChat = #{weChat,jdbcType=LONGVARCHAR},
+      fans = #{fans,jdbcType=LONGVARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.ldu.pojo.Goods" >
@@ -212,7 +246,10 @@
       end_time = #{endTime,jdbcType=VARCHAR},
       polish_time = #{polishTime,jdbcType=VARCHAR},
       commet_num = #{commetNum,jdbcType=INTEGER},
-      describle = #{describle,jdbcType=LONGVARCHAR}
+      describle = #{describle,jdbcType=LONGVARCHAR},
+      zhanghaoId = #{zhanghaoId,jdbcType=LONGVARCHAR},
+      weChat = #{weChat,jdbcType=LONGVARCHAR},
+      fans = #{fans,jdbcType=LONGVARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

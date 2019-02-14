@@ -10748,12 +10748,14 @@ div.change-name.stark-components .publish-box .publish-btn:hover {
 }
 
 .header.stark-components .logo .em1 {
-    color: #0bb9f8
+    color: #f80600;
+    font-size: 48px;
 }
 
 .header.stark-components .logo .em3 {
     font-size: 16px;
-    padding-left: 10px
+    padding-left: 10px;
+    color: #007ff8;
 }
 
 .header.stark-components .publish-btn .btn {
@@ -10929,7 +10931,7 @@ div.change-name.stark-components .publish-box .publish-btn:hover {
 }
 
 .waterfoo.stark-components {
-    width: 900px;
+    width: 1500px;
     margin: 10px auto
 }
 
@@ -14319,7 +14321,7 @@ div.alert.stark-components .publish-box .close, div.notice.stark-components .pub
 }
 
 .index-title {
-    width: 960px;
+    width: 1500px;
     margin: -20px auto 0;
     font-size: 20px;
     color: #5d4037 !important;
@@ -14347,7 +14349,7 @@ div.alert.stark-components .publish-box .close, div.notice.stark-components .pub
 
 .index-title .hr2 {
     display: inline-block;
-    width: 930px;
+    width: 1500px;
     border: none;
     border-top: 2px solid #d9d9d9
 }

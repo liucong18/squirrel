@@ -23,6 +23,12 @@ public class Goods {
 
     private String describle;
 
+    private String zhanghaoId;
+
+    private String weChat;
+
+    private String fans;
+
     public Integer getId() {
         return id;
     }
@@ -109,5 +115,29 @@ public class Goods {
 
     public void setPolishTime(String polishTime) {
         this.polishTime = polishTime;
+    }
+
+    public String getZhanghaoId() {
+        return zhanghaoId;
+    }
+
+    public void setZhanghaoId(String zhanghaoId) {
+        this.zhanghaoId = zhanghaoId;
+    }
+
+    public String getWeChat() {
+        return weChat;
+    }
+
+    public void setWeChat(String weChat) {
+        this.weChat = weChat;
+    }
+
+    public String getFans() {
+        return fans;
+    }
+
+    public void setFans(String fans) {
+        this.fans = fans;
     }
 }

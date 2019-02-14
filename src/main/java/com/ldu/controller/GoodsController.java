@@ -275,12 +275,12 @@ public class GoodsController {
     @ResponseBody
     @RequestMapping(value = "/uploadFile")
     public  Map<String,Object> uploadFile(HttpSession session,MultipartFile myfile) throws IllegalStateException, IOException{
-        //原始名称
-        String oldFileName = myfile.getOriginalFilename(); //获取上传文件的原名
+        //获取上传文件的原名
+        String oldFileName = myfile.getOriginalFilename();
         //存储图片的物理路径
         String file_path = session.getServletContext().getRealPath("upload");
         //上传图片
-        if(myfile!=null && oldFileName!=null && oldFileName.length()>0){
+        if(myfile != null && oldFileName!=null && oldFileName.length()>0){
             //新的图片名称
             String newFileName = UUID.randomUUID() + oldFileName.substring(oldFileName.lastIndexOf("."));
             //新图片

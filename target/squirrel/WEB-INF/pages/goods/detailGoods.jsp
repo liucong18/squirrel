@@ -53,9 +53,9 @@
     <nav class="white nav1">
         <div class="nav-wrapper">
             <a href="<%=basePath%>goods/homeGoods" class="logo">
-                <em class="em1">龙院</em>
-                <em class="em2">二手工坊</em>
-                <em class="em3">lyun</em>
+                <em class="em1">enenjoy</em>
+                <%--<em class="em2">二手工坊</em>--%>
+                <em class="em3">C2C内容电商平台</em>
             </a>
             <div class="nav-wrapper search-bar">
                 <form ng-submit="search()" class="ng-pristine ng-invalid ng-invalid-required">
