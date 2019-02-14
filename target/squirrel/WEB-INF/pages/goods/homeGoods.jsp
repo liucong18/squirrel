@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>龙院二手工坊</title>
+    <title>自媒体广告投放平台</title>
     <link rel="stylesheet" href="../css/index.css" />
     <script type="text/javascript" src="../js/jquery.js" ></script>
     <script type="text/javascript" src="../js/materialize.min.js" ></script>
@@ -345,12 +345,11 @@
         描述：右侧banner（图片）部分
     -->
     <div class="slider-wapper">
-        <%--<img src="../img/Basic.png" />--%>
         <div class="slider" style="height: 440px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-            <%--<ul class="slides" style="height: 400px;">--%>
-                <%--<li class="active" style="opacity: 1;">--%>
-                    <%--<a href="">--%>
-                        <img src="../img/Basic.png" />
+            <ul class="slides" style="height: 400px;">
+                <li class="active" style="opacity: 1;">
+                    <a href="">
+                        <img src="../img/Basic.jpg" />
                         <%--<div class="bannerimg">--%>
                             <%--<ul class="bannerul">--%>
                                 <%--<p class="text1">亲爱的同学们：</p>--%>
@@ -363,10 +362,10 @@
                             <%--<div class="logoimg">--%>
                                 <%--<img src="../img/p_logo.jpg" />--%>
                             <%--</div>--%>
-                        <%--&lt;%&ndash;</div>&ndash;%&gt;--%>
-                    <%--</a>--%>
-                <%--</li>--%>
-            <%--</ul>--%>
+                        <%--</div>--%>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
     <!--

@@ -35,7 +35,7 @@
                     <img src="<%=basePath%>img/photo.jpg">
                 </div>
                 <div class="big_headimg">
-                    <img src="<%=basePath%>img/Basic.png">
+                    <img src="<%=basePath%>img/Basic.jpg">
                 </div>
                 <span class="name">${cur_user.username}</span>
                 <span class="school">龙岩学院</span>
