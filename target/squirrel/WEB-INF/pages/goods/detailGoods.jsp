@@ -51,39 +51,45 @@
 -->
 <div ng-controller="headerController" class="header stark-components navbar-fixed ng-scope">
     <nav class="white nav1">
+
         <div class="nav-wrapper">
             <a href="<%=basePath%>goods/homeGoods" class="logo">
                 <em class="em1">enenjoy</em>
-                <%--<em class="em2">二手工坊</em>--%>
                 <em class="em3">C2C内容电商平台</em>
             </a>
+
             <div class="nav-wrapper search-bar">
-                <form ng-submit="search()" class="ng-pristine ng-invalid ng-invalid-required">
-                    <div class="input-field">
-                        <input id="search" placeholder="搜点什么吧233..." value="<c:out value="${search}"></c:out>" style="height: 40px;"
-                               class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"/>
-                        <label for="search" class="active">
-                            <i ng-click="search()" class="iconfont"></i>
-                        </label>
-                    </div>
+                <form ng-submit="search()" class="ng-pristine ng-invalid ng-invalid-required" action="/goods/search">
+                    <%--<div class="input-field">--%>
+                    <input id="search" name="str" placeholder="搜一搜" style="height: 35px; width: 200px"/>
+                    <%--class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"/>--%>
+                    <button data-position="bottom" class="cengse lighten-1 waves-effect waves-light btn" ng-click="search()">
+                        搜索
+                    </button>
+                    <%--<label for="search" class="active">--%>
+                    <%--<i ng-click="search()" class="iconfont"></i>--%>
+                    <%--</label>--%>
+                    <%--</div>--%>
                 </form>
             </div>
             <ul class="right">
                 <c:if test="${empty cur_user}">
                     <li class="publish-btn">
                         <button ng-click="showLogin()" data-position="bottom" data-delay="50"
-                                data-tooltip="需要先登录哦！" class="red lighten-1 waves-effect waves-light btn" data-tooltip-id="510d3084-e666-f82f-3655-5eae4304a83a"	>
-                            我要发布</button>
+                                data-tooltip="需要先登录哦！" class="cengse lighten-1 waves-effect waves-light btn" data-tooltip-id="510d3084-e666-f82f-3655-5eae4304a83a"	>
+                            发布自媒体账号</button>
                     </li>
                 </c:if>
                 <c:if test="${!empty cur_user}">
                     <li class="publish-btn">
-                        <button data-position="bottom" class="red lighten-1 waves-effect waves-light btn">
-                            <a href="/goods/publishGoods">我要发布</a>
+                        <button data-position="bottom" class="cengse lighten-1 waves-effect waves-light btn">
+                            <a href="/goods/publishGoods">发布自媒体账号</a>
                         </button>
                     </li>
-                    <li>
-                        <a href="/user/allGoods">我发布的商品</a>
+                    <li class="publish-btn">
+                        <button data-position="bottom" class="bule lighten-1 waves-effect waves-light btn">
+                            <a href="/user/allGoods">我的自媒体账号</a>
+                        </button>
                     </li>
                     <li>
                         <a>${cur_user.username}</a>
