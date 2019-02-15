@@ -164,6 +164,13 @@ table.bordered > tbody > tr, table.bordered > thead > tr, thead {
 .red.lighten-1 {
     background-color: #EF5350 !important
 }
+.cengse.lighten-1 {
+    background-color: #f8a600 !important
+}
+
+.bule.lighten-1 {
+    background-color: #00c3f8 !important
+}
 
 .red-text.text-lighten-1 {
     color: #EF5350 !important
@@ -10445,7 +10452,7 @@ div.login.stark-components .publish-box > .row {
 }
 
 div.login.stark-components .publish-box .title {
-    background: url("../img/title.png");
+    background: url("../img/title.jpg");
     background-size: contain;
     height: 100px
 }
@@ -10508,7 +10515,7 @@ div.signup.stark-components .publish-box > .row {
 }
 
 div.signup.stark-components .publish-box .title {
-    background: url(../img/title.png);
+    background: url(../img/title.jpg);
     background-size: contain;
     height: 100px
 }
@@ -10721,11 +10728,11 @@ div.change-name.stark-components .publish-box .publish-btn:hover {
 }
 
 .header.stark-components .search-bar {
-    width: 300px;
+    width: 500px;
     position: absolute;
     left: 50%;
     margin-left: -150px;
-    margin-top: -68px
+    margin-top: -78px
 }
 
 .header.stark-components .search-bar .iconfont {
@@ -10748,8 +10755,8 @@ div.change-name.stark-components .publish-box .publish-btn:hover {
 }
 
 .header.stark-components .logo .em1 {
-    color: #f80600;
-    font-size: 48px;
+    color: #f8a600;
+    font-size: 52px;
 }
 
 .header.stark-components .logo .em3 {
@@ -10935,6 +10942,11 @@ div.change-name.stark-components .publish-box .publish-btn:hover {
     margin: 10px auto
 }
 
+.waterfoo.stark-componens2 {
+    width: 1800px;
+    margin: 10px auto
+}
+
 .waterfoo.stark-components .normal a {
     display: block;
     color: #000;
@@ -10983,7 +10995,7 @@ div.change-name.stark-components .publish-box .publish-btn:hover {
 }
 
 .waterfoo.stark-components .normal .card-image {
-    height: 280px;
+    height: 360px;
     width: 280px;
     overflow: hidden;
     background-size: cover;
@@ -14257,7 +14269,7 @@ div.alert.stark-components .publish-box .title, div.notice.stark-components .pub
 
 div.alert.stark-components .publish-box .logo, div.notice.stark-components .publish-box .logo {
     height: 80px;
-    background: url(/img/title.png);
+    background: url(/img/title.jpg);
     background-size: cover
 }
 
@@ -14372,7 +14384,7 @@ div.alert.stark-components .publish-box .close, div.notice.stark-components .pub
 }
 
 .main-content .slider-wapper {
-    width: 940px;
+    width: 2300px;
     margin: 0 auto;
     padding: 10px
 }

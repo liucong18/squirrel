@@ -29,6 +29,26 @@ public class Goods {
 
     private String fans;
 
+    private String TEL;
+
+    private String weiZhi;
+
+    public String getWeiZhi() {
+        return weiZhi;
+    }
+
+    public void setWeiZhi(String weiZhi) {
+        this.weiZhi = weiZhi;
+    }
+
+    public String getTEL() {
+        return TEL;
+    }
+
+    public void setTEL(String TEL) {
+        this.TEL = TEL;
+    }
+
     public Integer getId() {
         return id;
     }

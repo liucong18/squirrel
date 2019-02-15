@@ -50,41 +50,45 @@
 -->
 <div ng-controller="headerController" class="header stark-components navbar-fixed ng-scope">
     <nav class="white nav1">
-        <div class="nav-wrapper">
 
+        <div class="nav-wrapper">
             <a href="<%=basePath%>goods/homeGoods" class="logo">
                 <em class="em1">enenjoy</em>
-                <%--<em class="em2">二手工坊</em>--%>
                 <em class="em3">C2C内容电商平台</em>
             </a>
 
             <div class="nav-wrapper search-bar">
-                <form ng-submit="search()" class="ng-pristine ng-invalid ng-invalid-required" action="">
-                    <div class="input-field">
-                        <input id="search" name="str" value="<c:out value="${search}"></c:out>" placeholder="搜点什么吧233..." style="height: 40px;"
-                               class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"/>
-                        <label for="search" class="active">
-                            <i ng-click="search()" class="iconfont"></i>
-                        </label>
-                    </div>
+                <form ng-submit="search()" class="ng-pristine ng-invalid ng-invalid-required" action="/goods/search">
+                    <%--<div class="input-field">--%>
+                    <input id="search" name="str" placeholder="搜一搜" style="height: 35px; width: 200px"/>
+                    <%--class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"/>--%>
+                    <button data-position="bottom" class="cengse lighten-1 waves-effect waves-light btn" ng-click="search()">
+                        搜索
+                    </button>
+                    <%--<label for="search" class="active">--%>
+                    <%--<i ng-click="search()" class="iconfont"></i>--%>
+                    <%--</label>--%>
+                    <%--</div>--%>
                 </form>
             </div>
             <ul class="right">
                 <c:if test="${empty cur_user}">
                     <li class="publish-btn">
                         <button ng-click="showLogin()" data-position="bottom" data-delay="50"
-                                data-tooltip="需要先登录哦！" class="red lighten-1 waves-effect waves-light btn" data-tooltip-id="510d3084-e666-f82f-3655-5eae4304a83a"	>
-                            我要发布</button>
+                                data-tooltip="需要先登录哦！" class="cengse lighten-1 waves-effect waves-light btn" data-tooltip-id="510d3084-e666-f82f-3655-5eae4304a83a"	>
+                            发布自媒体账号</button>
                     </li>
                 </c:if>
                 <c:if test="${!empty cur_user}">
                     <li class="publish-btn">
-                        <button data-position="bottom" class="red lighten-1 waves-effect waves-light btn">
-                            <a href="/goods/publishGoods">我要发布</a>
+                        <button data-position="bottom" class="cengse lighten-1 waves-effect waves-light btn">
+                            <a href="/goods/publishGoods">发布自媒体账号</a>
                         </button>
                     </li>
-                    <li>
-                        <a href="/user/allGoods">我发布的商品</a>
+                    <li class="publish-btn">
+                        <button data-position="bottom" class="bule lighten-1 waves-effect waves-light btn">
+                            <a href="/user/allGoods">我的自媒体账号</a>
+                        </button>
                     </li>
                     <li>
                         <a>${cur_user.username}</a>
@@ -221,7 +225,7 @@
 
 <div ng-controller="sidebarController" class="sidebar stark-components ng-scope">
     <li ng-class="{true: 'active'}[isAll]">
-        <a href="/goods/catelog/1" class="index">
+        <a href="/goods/homeGoods" class="index">
             <img src="<%=basePath%>img/ShouYe.jpg">
             <em>首页</em>
         </a>
@@ -334,15 +338,18 @@
             <c:forEach var="item" items="${goodsExtendList}">
                 <div class="card col">
                     <a href="<%=basePath%>goods/goodsId/${item.goods.id}">
-                        <div class="card-image">
-                            <img src="<%=basePath%>upload/${item.images[0].imgUrl}" />
+                        <div class="card-image"><img src="../upload/${item.images[0].imgUrl}" /></div>
+                        <div class="card-content">ID：
+                            <span class="item-price"><c:out value="${item.goods.zhanghaoId}"></c:out></span>
                         </div>
-                        <div class="card-content item-price"><c:out value="${item.goods.price}"></c:out></div>
-                        <div class="card-content item-name">
-                            <p><c:out value="${item.goods.name}"></c:out></p>
+                        <div class="card-content">名称：
+                            <span class="item-price"><c:out value="${item.goods.name}"></c:out></span>
+                        </div>
+                        <div class="card-content">每条估价：
+                            <span class="item-price"><c:out value="${item.goods.price}"></c:out></span>
                         </div>
                         <div class="card-content item-location">
-                            <p>龙岩学院</p>
+                            <p><c:out value="${item.goods.weiZhi}"></c:out> </p>
                             <p><c:out value="${item.goods.startTime}"></c:out></p>
                         </div>
                     </a>

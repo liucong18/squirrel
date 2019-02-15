@@ -141,6 +141,12 @@
                     </div>
 
                     <div class="changeinfo">
+                        <span>所在地理位置：</span>
+                        <input class="in_info" type="text" name="weiZhi" placeholder="请输入位置"/>
+                        <span style="color: #00C853">(*选填,请如实填写)</span>
+                    </div>
+
+                    <div class="changeinfo">
                         <span>自媒体平台：</span>
                         <select class="in_info" name="catelogId">
                             <option value="1">微信公众号</option>

@@ -10451,7 +10451,7 @@ div.login.stark-components .publish-box > .row {
 }
 
 div.login.stark-components .publish-box .title {
-    background: url(../img/title.png);
+    background: url(../img/title.jpg);
     background-size: contain;
     height: 100px
 }
@@ -10514,7 +10514,7 @@ div.signup.stark-components .publish-box > .row {
 }
 
 div.signup.stark-components .publish-box .title {
-    background: url(../img/title.png);
+    background: url(../img/title.jpg);
     background-size: contain;
     height: 100px
 }
@@ -10586,7 +10586,7 @@ div.alert.stark-components .publish-box .title, div.notice.stark-components .pub
 
 div.alert.stark-components .publish-box .logo, div.notice.stark-components .publish-box .logo {
     height: 80px;
-    background: url(/static//img/title.png);
+    background: url(/static//img/title.jpg);
     background-size: cover
 }
 
@@ -10817,7 +10817,7 @@ div.change-name.stark-components .publish-box .publish-btn:hover {
 }
 
 .header.stark-components .logo .em1 {
-    color: #0bb9f8
+    color: #f8a600
 }
 
 .header.stark-components .logo .em3 {
@@ -10912,7 +10912,8 @@ div.change-name.stark-components .publish-box .publish-btn:hover {
 }
 
 .header.stark-components .nav1 li.publish-btn:hover {
-    background-color: #fff !important
+    background-color: #fff !important;
+    line-height: 100%
 }
 
 .header.stark-components .nav1 li.publish-btn > button:hover {

@@ -49,7 +49,7 @@ public class GoodsController {
     public ModelAndView homeGoods() throws Exception {
         ModelAndView modelAndView = new ModelAndView();
         //商品种类数量
-        int catelogSize = 7;
+        int catelogSize = 15;
         //每个种类显示商品数量
         int goodsSize = 6;
         for (int i = 1; i <= catelogSize; i++) {
