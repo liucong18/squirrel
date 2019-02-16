@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.InputStream;
 import java.util.List;
@@ -23,8 +24,13 @@ public class AdminController {
     @Resource
     private UserService userService;
 
-    @RequestMapping(value = "/userList",method = RequestMethod.GET)
-    public String userList() {
+    @RequestMapping(value = "",method = RequestMethod.GET)
+    public String userList(HttpServletRequest request) {
+        String user = (String)request.getSession().getAttribute("cur_user");
+        String userPwd = (String)request.getSession().getAttribute("123456");
+        if("18629880525".equals(user) || "123456".equals(userPwd)) {
+            return "非管理员不能登陆后台管理系统";
+        }
         return "/admin/userList";
     }
 

@@ -33,41 +33,29 @@
             <a href="<%=basePath%>goods/homeGoods">
                 <h1 class="logo"></h1>
             </a>
-            <a href="/user/home">
-                <div class="home"></div>
+            <a href="<%=basePath%>goods/homeGoods">
+                <div class="logo"></div>
             </a>
         </div>
         <!--
             描述：左侧个人中心栏
         -->
         <div id="user_nav">
+
             <div class="user_info">
                 <div class="head_img">
-                    <img src="<%=basePath%>img/photo.jpg">
+                    <img src="<%=basePath%>img/photo.gif">
                 </div>
                 <div class="big_headimg">
                     <img src="">
                 </div>
                 <span class="name">${cur_user.username}</span>
-                <span class="school">龙岩学院</span>
-                <span class="name">闲置数量：${cur_user.goodsNum}</span>
+                <span class="name">账号数量：${cur_user.goodsNum}</span>
             </div>
+
             <div class="home_nav">
                 <ul>
-                    <a href="">
-                        <li class="notice">
-                            <div></div>
-                            <span>我的消息</span>
-                            <strong></strong>
-                        </li>
-                    </a>
-                    <a href="">
-                        <li class="fri">
-                            <div></div>
-                            <span>关注列表</span>
-                            <strong></strong>
-                        </li>
-                    </a>
+
                     <a href="/user/basic">
                         <li class="set">
                             <div></div>
@@ -78,14 +66,14 @@
                     <a href="/goods/publishGoods">
                         <li class="store">
                             <div></div>
-                            <span>发布物品</span>
+                            <span>发布账号</span>
                             <strong></strong>
                         </li>
                     </a>
                     <a href="/user/allGoods">
                         <li class="second">
                             <div></div>
-                            <span>我的闲置</span>
+                            <span>我的账号</span>
                             <strong></strong>
                         </li>
                     </a>
@@ -98,28 +86,59 @@
         <div id="user_content">
             <div class="basic">
                 <form:form action="/goods/editGoodsSubmit" method="post" role="form" enctype="multipart/form-data">
-                    <h1 style="margin-left: 210px;">修改物品信息</h1><hr />
+                    <h1 style="margin-left: 210px;">我的自媒体账号</h1><hr/>
+
                     <div class="changeinfo">
-                        <span>物品名：</span>
-                        <input class="in_info" type="text" name="name" placeholder="请输入物品名" value="${goodsExtend.goods.name}"/>
-                        <span>(*必填)</span>
+                        <span >账号名称：</span>
+                        <input class="in_info" type="text" name="name" placeholder="请输入账号名称"/>
+                        <span style="color: #f80600">(*必填：方便买家查看你的自媒体账号)</span>
                     </div>
+
                     <div class="changeinfo">
-                        <span>出售价格：</span>
-                        <input class="in_info" type="text" name="price" placeholder="请输入出售价格" value="${goodsExtend.goods.price}"/>
-                       <span>(*必填)</span>
-                   </div>
-                   <div class="changeinfo">
-                        <span>原价：</span>
-                        <input class="in_info" type="text" name="realPrice" placeholder="请输入商品原价" value="${goodsExtend.goods.realPrice}"/>
-                        <span id="checkphone">(*选填,请如实填写)</span>
-                     </div>
-                     <div class="changeinfo">
+                        <span>账号ID：</span>
+                        <input class="in_info" type="text" name="zhanghaoId" placeholder="请输入账号ID"/>
+                        <span style="color: #f80600">(*必填：方便买家查看你的自媒体账号)</span>
+                    </div>
+
+                    <div class="changeinfo">
+                        <span>WeChat：</span>
+                        <input class="in_info" type="text" name="weChat" placeholder="请输入微信号"/>
+                        <span style="color: #f80600">(*必填：方便买家联系您)</span>
+                    </div>
+
+                    <div class="changeinfo">
+                        <span>TEL：</span>
+                        <input class="in_info" type="text" name="TEL" placeholder="请输入手机号"/>
+                        <span style="color: #f80600">(*必填：方便买家联系您)</span>
+                    </div>
+
+                    <div class="changeinfo">
+                        <span>粉丝量：</span>
+                        <input class="in_info" type="text" name="fans" placeholder="请输入粉丝数量"/>
+                        <span style="color: #00C853">(*选填：更好的吸引买家)</span>
+                    </div>
+
+                    <div class="changeinfo">
+                        <span>每条估价：</span>
+                        <input class="in_info" type="text" name="price" placeholder="请输入每条估价"/>
+                        <span style="color: #00C853">(*选填：方便买家商品价格)</span>
+                    </div>
+
+                    <div class="changeinfo">
+                        <span>概不议价：</span>
+                        <input class="in_info" type="text" name="realPrice" placeholder="请输入价格"/>
+                        <span style="color: #00C853">(*选填,请如实填写)</span>
+                    </div>
+
+                    <div class="changeinfo">
+                        <span>所在地理位置：</span>
+                        <input class="in_info" type="text" name="weiZhi" placeholder="请输入位置"/>
+                        <span style="color: #00C853">(*选填,请如实填写)</span>
+                    </div>
+
+                    <div class="changeinfo">
                         <span>自媒体平台：</span>
                         <select class="in_info" name="catelogId">
-                            <%--1、微信公众号 2、头条号 3、企鹅号 4、百家号 5、网易号 6、搜狐号 7、大鱼号--%>
-                            <%--8、一点号 9、凤凰号 10、东方号 11、众媒号 12、新浪看点 13、简书 14、趣头条--%>
-                            <%--15、支付宝生活号 16、京东号 17、易信 18、看荐 19、号外号 20、封面号 21、迅雷号22、QQ公众号--%>
                             <option value="1">微信公众号</option>
                             <option value="2">头条号</option>
                             <option value="3">企鹅号</option>
@@ -136,89 +155,45 @@
                             <option value="14">西瓜视频</option>
                             <option value="25">小咖秀</option>
                         </select>
+                        <span style="color: #f80600">(*必填,请如实填写)</span>
                     </div>
 
                     <div class="changeinfo" id="dir">
-                        <span>商品描述：</span>
+                        <span>账号描述：<font style="color: #00C853"> (选填：请添加地名等信息，方便买家在搜索时，更方便的搜到您！)</font></span>
+                        <br>
                         <div class="sha">
                             <div class="publ">
                                 <div class="pub_con">
                                     <div class="text_pu">
-                                        <input type="text" name="describle" class="emoji-wysiwyg-editor" value="${goodsExtend.goods.describle}"/>
+                                        <input type="text" name="describle" class="emoji-wysiwyg-editor"/>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <br>
                     </div>
                     <br />
                     <hr />
                     <div class="changeinfo">
-                        <span>图片：</span>
+                        <span>账号图片：<font style="color: #00C853">(选填：可以是一条点赞量超多的小视频，或者阅读量超多的文章等等！)</font></span>
+                        <br>
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-6 col-sm-offset-1">
                                     <div class="form-group">
                                         <div class="col-sm-10">
-                                            <img src="<%=basePath%>upload/${goodsExtend.images[0].imgUrl}"/>
-                                            <input type="hidden" name="imgUrl" value="${goodsExtend.images[0].imgUrl}">
-                                            <input type="hidden" name="id" value="${goodsExtend.goods.id}">
-                                            <input type="hidden" name="startTime" value="${goodsExtend.goods.startTime}">
-                                            <input type="hidden" name="endTime" value="${goodsExtend.goods.endTime}">
+                                            <input type="file" name="myfile" data-ref="imgUrl" class="col-sm-10 myfile" value=""/>
+                                            <input type="hidden" name="imgUrl" value="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <br>
                     </div>
+                    <br>
                     <input type="submit" class="setting-save" value="提交修改" style="margin-top: 20px;background-color: blue;"/>
                 </form:form>
-            </div>
-            <!--
-                描述：最右侧，可能认识的人
-            -->
-            <div class="recommend">
-                <div class="title">
-                    <span class="text">可能认识的人</span>
-                    <span class="change">换一组</span>
-                    <span class="underline"></span>
-                </div>
-                <ul>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo1.jpg">
-                        </a>
-                        <span>Brudce</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo2.jpg">
-                        </a>
-                        <span>Graham</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo3.jpg">
-                        </a>
-                        <span>策马奔腾hly</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo4.jpg">
-                        </a>
-                        <span>Danger-XFH</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo5.jpg">
-                        </a>
-                        <span>Keithw</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>

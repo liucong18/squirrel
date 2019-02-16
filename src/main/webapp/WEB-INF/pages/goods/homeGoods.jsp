@@ -104,9 +104,8 @@
                         </a>
                         <div class="more-vert">
                             <ul class="dropdown-content">
-                                <li><a href="/user/home">个人中心</a></li>
-                                <li><a>消息</a></li>
-                                <li><a onclick="ChangeName()">更改用户名</a></li>
+                                <li><a href="/user/basic">个人中心</a></li>
+                                <%--<li><a onclick="ChangeName()">更改用户名</a></li>--%>
                                 <li><a href="/user/logout">退出登录</a></li>
                             </ul>
                         </div>
@@ -345,54 +344,39 @@
     描述：右侧显示部分
 -->
 <div class="main-content">
-    <!--
-        描述：右侧banner（图片）部分
-    -->
-    <%--<div class="slider-wapper" style="background:url("../img/Basic.png") background-size:100%;">--%>
-        <%--<div class="slider" style="height: 440px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">--%>
-            <%--<ul class="slides" style="height: 400px;">--%>
-                <%--<li class="active" style="opacity: 1;">--%>
-                    <%--<a href="<%=basePath%>goods/homeGoods">--%>
-                        <%--<img src="../img/Basic.png" />--%>
-                    <%--</a>--%>
-                <%--</li>--%>
-            <%--</ul>--%>
-        <%--</div>--%>
-    <%--</div>--%>
 
 <div class="waterfoo stark-components row"><img src="../img/Basic.jpg" height="25%" width="100%"/> </div>
-
     <!--
         描述：首页
     -->
-    <div class="index-title">
-        <a href="<%=basePath%>goods/homeGoods">首页</a>
-        <hr class="hr2">
-    </div>
-    <div class="waterfoo stark-components row">
-        <div class="item-wrapper normal">
-            <c:forEach var="item" items="${catelogGoods1}">
-                <div class="card col">
-                    <a href="<%=basePath%>goods/goodsId/${item.goods.id}">
-                        <div class="card-image"><img src="../upload/${item.images[0].imgUrl}" /></div>
-                        <div class="card-content">ID：
-                            <span class="item-price"><c:out value="${item.goods.zhanghaoId}"></c:out></span>
-                        </div>
-                        <div class="card-content">名称：
-                            <span class="item-price"><c:out value="${item.goods.name}"></c:out></span>
-                        </div>
-                        <div class="card-content">每条估价：
-                            <span class="item-price"><c:out value="${item.goods.price}"></c:out></span>
-                        </div>
-                        <div class="card-content item-location">
-                            <p><c:out value="${item.goods.weiZhi}"></c:out> </p>
-                            <p><c:out value="${item.goods.startTime}"></c:out></p>
-                        </div>
-                    </a>
-                </div>
-            </c:forEach>
-        </div>
-    </div>
+    <%--<div class="index-title">--%>
+        <%--<a href="<%=basePath%>goods/homeGoods">首页</a>--%>
+        <%--<hr class="hr2">--%>
+    <%--</div>--%>
+    <%--<div class="waterfoo stark-components row">--%>
+        <%--<div class="item-wrapper normal">--%>
+            <%--<c:forEach var="item" items="${catelogGoods1}">--%>
+                <%--<div class="card col">--%>
+                    <%--<a href="<%=basePath%>goods/goodsId/${item.goods.id}">--%>
+                        <%--<div class="card-image"><img src="../upload/${item.images[0].imgUrl}" /></div>--%>
+                        <%--<div class="card-content">ID：--%>
+                            <%--<span class="item-price"><c:out value="${item.goods.zhanghaoId}"></c:out></span>--%>
+                        <%--</div>--%>
+                        <%--<div class="card-content">名称：--%>
+                            <%--<span class="item-price"><c:out value="${item.goods.name}"></c:out></span>--%>
+                        <%--</div>--%>
+                        <%--<div class="card-content">每条估价：--%>
+                            <%--<span class="item-price"><c:out value="${item.goods.price}"></c:out></span>--%>
+                        <%--</div>--%>
+                        <%--<div class="card-content item-location">--%>
+                            <%--<p><c:out value="${item.goods.weiZhi}"></c:out> </p>--%>
+                            <%--<p><c:out value="${item.goods.startTime}"></c:out></p>--%>
+                        <%--</div>--%>
+                    <%--</a>--%>
+                <%--</div>--%>
+            <%--</c:forEach>--%>
+        <%--</div>--%>
+    <%--</div>--%>
     <!--
         描述：微信公共号
     -->

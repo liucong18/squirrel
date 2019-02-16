@@ -26,44 +26,27 @@
             <a href="/goods/homeGoods">
                 <h1 class="logo"></h1>
             </a>
-            <a href="/user/home">
-                <div class="home"></div>
+            <a href="<%=basePath%>goods/homeGoods">
+                <div class="logo"></div>
             </a>
         </div>
         <!--
-            作者：hlk_1135@outlook.com
-            时间：2017-05-10
             描述：左侧个人中心栏
         -->
         <div id="user_nav">
             <div class="user_info">
                 <div class="head_img">
-                    <img src="<%=basePath%>img/photo.jpg">
+                    <img src="<%=basePath%>img/photo.gif">
                 </div>
                 <div class="big_headimg">
                     <img src="">
                 </div>
                 <span class="name">${cur_urser.username}</span>
-                <span class="school">龙岩学院</span>
-                <span class="name">闲置数量：${cur_user.goodsNum}</span>
-                <span class="fa fa-share-alt">"快去分享一下"</span>
+                <span class="name">账号数量：${cur_user.goodsNum}</span>
             </div>
             <div class="home_nav">
                 <ul>
-                    <a href="">
-                        <li class="notice">
-                            <div></div>
-                            <span>我的消息</span>
-                            <strong></strong>
-                        </li>
-                    </a>
-                    <a href="">
-                        <li class="fri">
-                            <div></div>
-                            <span>关注列表</span>
-                            <strong></strong>
-                        </li>
-                    </a>
+
                     <a href="/user/basic">
                         <li class="set">
                             <div></div>
@@ -74,14 +57,14 @@
                     <a href="/goods/publishGoods">
                         <li class="store">
                             <div></div>
-                            <span>发布物品</span>
+                            <span>发布账号</span>
                             <strong></strong>
                         </li>
                     </a>
                     <a href="/user/allGoods">
                         <li class="second">
                             <div></div>
-                            <span>我的闲置</span>
+                            <span>我的账号</span>
                             <strong></strong>
                         </li>
                     </a>
@@ -89,8 +72,6 @@
             </div>
         </div>
         <!--
-            作者：hlk_1135@outlook.com
-            时间：2017-05-10
             描述：右侧内容区域
         -->
         <div id="user_content">
@@ -118,8 +99,6 @@
                     </div>
                 </div>
                 <!--
-                    作者：hlk_1135@outlook.com
-                    时间：2017-05-11
                     描述：闲置商品展示
                 -->
                 <div class="share_content">

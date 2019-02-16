@@ -2,7 +2,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-	<title>Squirrel后台管理系统</title>
+	<title>后台管理系统</title>
 	<script src="../js/jquery-3.1.1.min.js"></script>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/jquery.bootgrid.min.css">
@@ -22,11 +22,11 @@
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar">*****</span>
 						</button>
-						<a class="navbar-brand" href="#">Squirrel后台管理系统</a>
+						<a class="navbar-brand" href="#">后台管理系统</a>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="/user/logout">logout</a></li>
+							<li><a href="/user/logout">退出</a></li>
 						</ul>
 					</div>
 				</div>
@@ -35,27 +35,26 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<h2>Squirrel用户信息</h2>
+			<h2>用户信息</h2>
 			<a class="btn btn-primary" href="/admin/exportUser">导出数据为excel</a>
 			<a class="btn btn-primary" href="#" id="add">添加用户</a>
-			<div class="btn-group">
-				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					查看接口数据 <span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu">
-					<li><a href="/admin/users?current=1&rowCount=10&sort[sender]=asc&searchPhrase=&id=b0df282a-0d67-40e5-8558-c9e93b7befed" target="_blank">JSON</a></li>
-				</ul>
-			</div>
+			<%--<div class="btn-group">--%>
+				<%--<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--%>
+					<%--查看接口数据 <span class="caret"></span>--%>
+				<%--</button>--%>
+				<%--<ul class="dropdown-menu">--%>
+					<%--<li><a href="/admin/users?current=1&rowCount=10&sort[sender]=asc&searchPhrase=&id=b0df282a-0d67-40e5-8558-c9e93b7befed" target="_blank">JSON</a></li>--%>
+				<%--</ul>--%>
+			<%--</div>--%>
 			<table id="grid-data" class="table table-condensed table-hover table-striped">
 				<thead>
 				<tr>
 					<th data-column-id="id"  data-identifier="true" data-type="numeric">序号</th>
 					<th data-column-id="phone">手机号</th>
 					<th data-column-id="username">姓名</th>
-					<th data-column-id="qq">QQ</th>
 					<th data-column-id="createAt">开通时间</th>
 					<th data-column-id="goodsNum">商品数量</th>
-					<th data-column-id="power">用户权限</th>
+					<%--<th data-column-id="power">用户权限</th>--%>
 					<th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
 				</tr>
 				</thead>

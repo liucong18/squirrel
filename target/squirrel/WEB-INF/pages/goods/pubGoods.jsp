@@ -36,8 +36,8 @@
             <a href="<%=basePath%>goods/homeGoods">
                 <h1 class="logo"></h1>
             </a>
-            <a href="/user/home">
-                <div class="home"></div>
+            <a href="<%=basePath%>goods/homeGoods">
+                <div class="logo"></div>
             </a>
         </div>
         <!--
@@ -47,24 +47,17 @@
         <div id="user_nav">
             <div class="user_info">
                 <div class="head_img">
-                    <img src="<%=basePath%>img/photo.jpg">
+                    <img src="<%=basePath%>img/photo.gif">
                 </div>
                 <div class="big_headimg">
                     <img src="">
                 </div>
                 <span class="name">${cur_user.username}</span>
-                <span class="name">自媒体账号：${cur_user.goodsNum}</span>
+                <span class="name">账号数量：${cur_user.goodsNum}</span>
             </div>
+
             <div class="home_nav">
                 <ul>
-                    <a href="">
-                        <li class="notice">
-                            <div></div>
-                            <span>我的消息</span>
-                            <strong></strong>
-                        </li>
-                    </a>
-
                     <a href="/user/basic">
                         <li class="set">
                             <div></div>
@@ -76,7 +69,7 @@
                     <a href="/goods/publishGoods">
                         <li class="store">
                             <div></div>
-                            <span>发布自媒体账号</span>
+                            <span>发布账号</span>
                             <strong></strong>
                         </li>
                     </a>
@@ -84,7 +77,7 @@
                     <a href="/user/allGoods">
                         <li class="second">
                             <div></div>
-                            <span>自媒体账号列表</span>
+                            <span>我的账号</span>
                             <strong></strong>
                         </li>
                     </a>
@@ -96,7 +89,7 @@
         <div id="user_content">
             <div class="basic">
                 <form:form action="/goods/publishGoodsSubmit" method="post" role="form" enctype="multipart/form-data">
-                    <h1 style="margin-left: 210px;">我的自媒体账号</h1><hr />
+                    <h1 style="margin-left: 210px;">我的自媒体账号</h1><hr/>
 
                     <div class="changeinfo">
                         <span >账号名称：</span>

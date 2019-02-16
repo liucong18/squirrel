@@ -40,7 +40,7 @@ public class GoodsController {
     private UserService userService;
 
     /**
-     * 首页显示商品，每一类商品查询6件，根据最新上架排序 key的命名为catelogGoods1、catelogGoods2....
+     * 首页显示商品，每一类商品查询5件，根据最新上架排序 key的命名为catelogGoods1、catelogGoods2....
      *
      * @return
      * @throws Exception
@@ -51,9 +51,9 @@ public class GoodsController {
         //商品种类数量
         int catelogSize = 15;
         //每个种类显示商品数量
-        int goodsSize = 6;
+        int goodsSize = 5;
+        List<Goods> goodsList = new ArrayList<Goods>();
         for (int i = 1; i <= catelogSize; i++) {
-            List<Goods> goodsList = null;
             List<GoodsExtend> goodsAndImage = null;
             goodsList = goodsService.getGoodsByCatelogOrderByDate(i, goodsSize);
             goodsAndImage = new ArrayList<GoodsExtend>();

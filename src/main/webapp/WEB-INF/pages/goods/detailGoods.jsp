@@ -60,16 +60,10 @@
 
             <div class="nav-wrapper search-bar">
                 <form ng-submit="search()" class="ng-pristine ng-invalid ng-invalid-required" action="/goods/search">
-                    <%--<div class="input-field">--%>
                     <input id="search" name="str" placeholder="搜一搜" style="height: 35px; width: 200px"/>
-                    <%--class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"/>--%>
                     <button data-position="bottom" class="cengse lighten-1 waves-effect waves-light btn" ng-click="search()">
                         搜索
                     </button>
-                    <%--<label for="search" class="active">--%>
-                    <%--<i ng-click="search()" class="iconfont"></i>--%>
-                    <%--</label>--%>
-                    <%--</div>--%>
                 </form>
             </div>
             <ul class="right">
@@ -104,9 +98,8 @@
                         </a>
                         <div class="more-vert">
                             <ul class="dropdown-content">
-                                <li><a href="/user/home">个人中心</a></li>
-                                <li><a>消息</a></li>
-                                <li><a onclick="ChangeName()">更改用户名</a></li>
+                                <li><a href="/user/basic">个人中心</a></li>
+                                <%--<li><a onclick="ChangeName()">更改用户名</a></li>--%>
                                 <li><a href="/user/logout">退出登录</a></li>
                             </ul>
                         </div>
@@ -241,29 +234,10 @@
         </div>
     </div>
     <div class="col s6">
-        <h1 class="item-name">${goodsExtend.goods.name}</h1>
-        <h2 class="item-price">${goodsExtend.goods.price}</h2>
-        <div class="item-public-info">
-            <p class="bargain">可讲价</p>
-            <p>
-                <i class="iconfont"></i>
-                <em class="item-location">龙岩学院</em>
-            </p>
-        </div>
-        <div class="publisher-info-title">
-            <em>卖家信息</em><hr>
-        </div>
-        <c:if test="${empty cur_user}">
-            <div class="item-contact">
-                <p class="not-login">
-                    <a onclick="showLogin()">登录</a>
-                    <em>或</em>
-                    <a onclick="showSignup()">注册</a>
-                    <em>后查看联系信息</em>
-                </p>
-            </div>
-        </c:if>
         <c:if test="${!empty cur_user}">
+            <div class="publisher-info-title">
+                <em>卖家信息</em><hr>
+            </div>
             <div class="item-contact">
                 <div>
                     <div class="base-blue z-depth-1 attr">
@@ -277,49 +251,61 @@
                     </div>
                     <div class="value">${seller.phone}</div>
                 </div>
-                <div>
-                    <div class="base-blue z-depth-1 attr">
-                        <i class="iconfont"></i>
-                    </div>
-                    <div class="value">${seller.qq}</div>
-                </div>
-                <div>
-                    <div class="base-blue z-depth-1 attr">
-                        <i class="iconfont"></i>
-                    </div>
-                    <div class="value"></div>
-                </div>
+            </div>
+        </c:if>
+        <div class="publisher-info-title">
+            <em>自媒体账号信息</em><hr>
+        </div>
+        <span class="item-name">ID：${goodsExtend.goods.zhanghaoId}</span><br><br>
+        <span class="item-name">昵称：${goodsExtend.goods.name}</span><br><br>
+        <span class="item-name">粉丝量：${goodsExtend.goods.fans}</span><br><br>
+        <span class="item-name">概不还价:${goodsExtend.goods.realPrice}</span><br><br>
+        <span class="item-name">每条估价：${goodsExtend.goods.price}</span><br><br>
+        <span class="item-name">概不还价:${goodsExtend.goods.realPrice}</span><br><br>
+        <span class="item-name">TEL:${goodsExtend.goods.TEL}</span><br><br>
+        <span class="item-name">WeChat：${goodsExtend.goods.weChat}</span><br><br>
+        <div class="item-public-info">
+            <p>
+                <i class="iconfont"></i>
+                <em class="item-location">${goodsExtend.goods.weiZhi}</em>
+            </p>
+        </div>
+
+        <c:if test="${empty cur_user}">
+            <div class="item-contact">
+                <p class="not-login">
+                    <a onclick="showLogin()">登录</a>
+                    <em>或</em>
+                    <a onclick="showSignup()">注册</a>
+                    <em>后查看详细信息</em>
+                </p>
             </div>
         </c:if>
         <h1 class="item-pub-time">发布于 ${goodsExtend.goods.startTime}</h1>
     </div>
 </div>
 <div class="detail-box stark-components z-depth-1 row">
-    <h1 class="title">商品详情</h1>
-    <hr class="hr1" />
+    <h1 class="title">账号详细信息</h1>
     <hr class="hr2" />
     <p class="section">${goodsExtend.goods.describle}</p>
     <p class="section"></p>
-    <p class="section">
-        联系我的时候，请说明是在龙院Squirrel校园二手工坊上看见的哦~
-    </p>
+
 </div>
 <div class="row detail-area">
     <div class="clo s12">
         <div ng-controller="commentController" class="comment stark-components z-depth-1 ng-scope">
             <h1 class="title">评论</h1>
-            <hr class="hr1" />
             <hr class="hr2" />
             <div class="comment-collection">
                 <div class="comment-item ng-scope">
                     <div class="comment-main-content">
-                        <em class="name ng-binding">一萱:</em>
+                        <em class="name ng-binding">明明:</em>
                         <em class="ng-hide">回复</em>
                         <em class="name ng-binding ng-hide">@:</em>
                         <em class="ng-binding">不错。</em>
                     </div>
                     <div class="comment-function">
-                        <em class="time ng-biinding">2018/06/28 16:45:54</em>
+                        <em class="time ng-biinding">2019/3/29 2:34:11</em>
                         <a class="reply-or-delete">删除</a>
                         <a class="reply-or-delete">回复</a>
                     </div>

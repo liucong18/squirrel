@@ -70,6 +70,7 @@ public class UserController {
             String pwd = MD5.md5(user.getPassword());
             if(pwd.equals(cur_user.getPassword())) {
                 request.getSession().setAttribute("cur_user",cur_user);
+                request.getSession().setAttribute("cur_user_pwd",pwd);
                 return new ModelAndView("redirect:"+url);
             }
         }

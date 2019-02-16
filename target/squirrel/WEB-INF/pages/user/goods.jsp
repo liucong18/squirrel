@@ -26,44 +26,26 @@
             <a href="/goods/homeGoods">
                 <h1 class="logo"></h1>
             </a>
-            <a href="/user/home">
-                <div class="home"></div>
+            <a href="<%=basePath%>goods/homeGoods">
+                <div class="logo"></div>
             </a>
         </div>
         <!--
-            作者：hlk_1135@outlook.com
-            时间：2017-05-10
             描述：左侧个人中心栏
         -->
         <div id="user_nav">
             <div class="user_info">
                 <div class="head_img">
-                    <img src="<%=basePath%>img/photo.jpg">
+                    <img src="<%=basePath%>img/photo.gif">
                 </div>
                 <div class="big_headimg">
                     <img src="">
                 </div>
                 <span class="name">${cur_user.username}</span>
-                <span class="school">龙岩学院</span>
-                <span class="name">闲置数量：${cur_user.goodsNum}</span>
-                <span class="fa fa-share-alt">"快去分享一下"</span>
+                <span class="name">账号数量：${cur_user.goodsNum}</span>
             </div>
             <div class="home_nav">
                 <ul>
-                    <a href="">
-                        <li class="notice">
-                            <div></div>
-                            <span>我的消息</span>
-                            <strong></strong>
-                        </li>
-                    </a>
-                    <a href="">
-                        <li class="fri">
-                            <div></div>
-                            <span>关注列表</span>
-                            <strong></strong>
-                        </li>
-                    </a>
                     <a href="/user/basic">
                         <li class="set">
                             <div></div>
@@ -74,14 +56,14 @@
                     <a href="/goods/publishGoods">
                         <li class="store">
                             <div></div>
-                            <span>发布物品</span>
+                            <span>发布账号</span>
                             <strong></strong>
                         </li>
                     </a>
                     <a href="/user/allGoods">
                         <li class="second">
                             <div></div>
-                            <span>我的闲置</span>
+                            <span>我的账号</span>
                             <strong></strong>
                         </li>
                     </a>
@@ -89,15 +71,11 @@
             </div>
         </div>
         <!--
-            作者：hlk_1135@outlook.com
-            时间：2017-05-10
             描述：右侧内容区域
         -->
         <div id="user_content">
             <div class="share">
                 <!--
-                    作者：hlk_1135@outlook.com
-                    时间：2017-05-11
                     描述：闲置商品展示
                 -->
                 <div class="share_content">
@@ -125,10 +103,10 @@
                                     </div>
                                     <div class="interact">
                                         <span class="fa fa-heart"><a href="<%=basePath%>goods/editGoods/${items.goods.id}">编辑</a></span>
-                                        <span class="fa fa-share"><a href="">擦亮</a></span>
-                                        <span class="fa fa-commenting"><a>${items.goods.commetNum}0</a></span>
+                                        <%--<span class="fa fa-share"><a href="">擦亮</a></span>--%>
+                                        <%--<span class="fa fa-commenting"><a>${items.goods.commetNum}0</a></span>--%>
                                         <span class="time">${items.goods.startTime}</span>
-                                        <span class="fa fa-trash"><a href="<%=basePath%>goods/deleteGoods/${items.goods.id}">删除</a></span>
+                                        <span class="fa fa-share"><a href="<%=basePath%>goods/deleteGoods/${items.goods.id}">删除</a></span>
                                     </div>
                                     <div class="like_detail">
                                         <div class="like_content">
@@ -140,55 +118,6 @@
                         </c:forEach>
                     </c:if>
                 </div>
-            </div>
-            <!--
-                作者：hlk_1135@outlook.com
-                时间：2017-05-10
-                描述：最右侧，可能认识的人
-            -->
-            <div class="recommend">
-                <div class="title">
-                    <span class="text">可能认识的人</span>
-                    <span class="change">换一组</span>
-                    <span class="underline"></span>
-                </div>
-                <ul>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo1.jpg">
-                        </a>
-                        <span>Brudce</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo2.jpg">
-                        </a>
-                        <span>Graham</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo3.jpg">
-                        </a>
-                        <span>策马奔腾hly</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo4.jpg">
-                        </a>
-                        <span>Danger-XFH</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                    <li>
-                        <a href="" class="head_img">
-                            <img src="<%=basePath%>img/photo5.jpg">
-                        </a>
-                        <span>Keithw</span>
-                        <div class="fa fa-plus-square"></div>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>
