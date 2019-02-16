@@ -36,9 +36,6 @@
             <a href="<%=basePath%>goods/homeGoods">
                 <h1 class="logo"></h1>
             </a>
-            <a href="<%=basePath%>goods/homeGoods">
-                <div class="logo"></div>
-            </a>
         </div>
         <!--
             

@@ -103,9 +103,8 @@
                         </a>
                         <div class="more-vert">
                             <ul class="dropdown-content">
-                                <li><a href="/user/home">个人中心</a></li>
-                                <li><a>消息</a></li>
-                                <li><a onclick="ChangeName()">更改用户名</a></li>
+                                <li><a href="/user/basic">个人中心</a></li>
+                                <%--<li><a onclick="ChangeName()">更改用户名</a></li>--%>
                                 <li><a href="/user/logout">退出登录</a></li>
                             </ul>
                         </div>
