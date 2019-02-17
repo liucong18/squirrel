@@ -60,16 +60,10 @@
 
             <div class="nav-wrapper search-bar">
                 <form ng-submit="search()" class="ng-pristine ng-invalid ng-invalid-required" action="/goods/search">
-                    <%--<div class="input-field">--%>
                         <input id="search" name="str" placeholder="搜一搜" style="height: 35px; width: 200px"/>
-                               <%--class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"/>--%>
                         <button data-position="bottom" class="cengse lighten-1 waves-effect waves-light btn" ng-click="search()">
                             搜索
                         </button>
-                        <%--<label for="search" class="active">--%>
-                            <%--<i ng-click="search()" class="iconfont"></i>--%>
-                        <%--</label>--%>
-                    <%--</div>--%>
                 </form>
             </div>
             <ul class="right">

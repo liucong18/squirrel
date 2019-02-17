@@ -5,117 +5,14 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="enenjoy:war exploded" />
+      <artifact name="second_hand_commodity_trading_mall:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3730e2da-4623-46c6-a3c3-792131bcf003" name="Default" comment="对登陆页，个人页修改">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/enenjoy_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="3730e2da-4623-46c6-a3c3-792131bcf003" name="Default" comment="动图">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/CatelogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/CatelogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/CatelogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/CatelogMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/CommentsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/CommentsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/GoodsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/GoodsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/ImageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/ImageMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/NoticeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/NoticeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/ReplyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/ReplyMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Catelog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Catelog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Comments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Comments.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/GoodsExtend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/GoodsExtend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Image.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Notice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Reply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Reply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/CatelogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/CatelogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/ImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/ImageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/CatelogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/CatelogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/ImageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/ImageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/CellRegion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/CellRegion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/DateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/MD5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/MD5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/ReadExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/ReadExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/UserGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/UserGrid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/WriteExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/WriteExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/GoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/catelogGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/pubGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/basic.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/goods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/goods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/01974fb4-da95-4191-8c80-e89db4a4e7a3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/0742ec19-ab85-4219-a829-fa833b0d1d39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/0a281a3b-f4e1-445b-b7a0-3f7a829849bc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/20afe4b7-b64b-4434-8c6d-3263985e1bfa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/24e34c65-1ff9-4eba-b97a-7cd8d8b4ecb1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/26c2c89b-9312-4759-88a0-7f73f86c549d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/27c63995-9ff9-453d-b24f-d9aa95dcc138.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/2952fe1e-0633-4f9d-9249-f999603235f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/2f3fc053-090d-49de-a184-39e78cb4fc7e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/370298f4-e81c-46b6-9dbd-83118922bb22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/3c95fa0d-d5e3-40f7-826f-cafe6e6af740.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4859432c-5955-411b-bdaa-d65275a9a61a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4b85e359-6fc8-4c12-93b9-edec64320f67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4e976d24-a4de-4690-94f7-971507c622e6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4ff2f2e2-5b3e-4ce6-9161-fb09cffea277.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/58a655a4-3bb1-4d63-87c1-257865393741.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/5aceed48-21f6-4aa8-9cfa-6bb831694c3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/5f54d5d7-876a-4ee9-b8a6-9dd94239b58b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/68bac661-f69f-4ec5-8f21-f92ec1970547.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/6c8a2d88-ab90-488e-a468-d379c730bd46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/709c748b-f28c-4a85-8b3a-88f0783c5a7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/717a89d2-244a-414a-aeb3-134ab8afcc19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/75131adc-b3a8-495b-94a5-c7b144c41a0e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/75599f16-ef35-4013-8c71-9f8c1682ad64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/786c6d89-b27a-4a41-8f96-352aed2a9e6c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/80c2975d-e5d6-41b9-9866-19e46865dddb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/813bd976-ad66-4fd5-ae5d-eb83e8f6e4ed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/816c281c-3c37-4e93-beb9-074276838bb5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/8222a2f2-6287-4530-a399-da7696b73fdf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/83e6a0be-cf28-4d74-8db6-ed1e3bafdec0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/85d132d0-bb61-4519-a08e-ec29937e4426.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/98fb927e-639f-4e02-ae37-44b0f1faf541.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/9d0782df-277f-45e6-b3b4-c424d688e312.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/9efb1d9a-072e-42af-b10b-e7abefa815e6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/a90f891e-9b74-4f92-a800-03ef83c0a69c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ae2bdee2-0abb-428d-961f-eadf9905bf4c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ba4d7cc8-639a-4f31-af46-7a1174fbb924.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/bec28d84-7d5e-4d50-8bb2-91409de00859.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/c378a8bb-0561-42bb-b77e-c89ed375efca.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/d01acfd0-3b87-4983-b46d-d2864e722437.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/d8ca0740-bdf3-416b-8557-8384e7299924.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/dee36400-df6a-46ac-96df-d71a7c42f328.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/e26183d0-244c-4da4-86dd-387d0ef8dfeb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/e5d4b13a-61a1-438d-9c2b-d5f7c4e2a402.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/e80e60a1-859c-4277-9a6a-c6bfe95dcf7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ec95d24f-9d52-413f-b711-3ed3886b054c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f2857094-1642-4d22-88b8-d06c290944fe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f34e49f8-bbef-4e1d-8138-e57aa97e408a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f4ccf238-e458-4dda-9ed8-88bca2d42309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f6e6a94d-e001-4fac-b8d3-2f99a9689a61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f80708c6-e242-465d-9f0e-18f79f0d0b00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f845fd90-db8a-4701-aa22-0968b2694fb0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f897a3fe-c08d-46f3-b6f4-5e35b2ecbc3c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f91335d4-784b-443a-bb68-34645ec164f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/fcf6b8f5-8c3a-4b19-83f3-1c3d19903fbd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,7 +51,7 @@
           <entry key="java" value="59" />
           <entry key="jpg" value="152" />
           <entry key="js" value="11" />
-          <entry key="jsp" value="86" />
+          <entry key="jsp" value="89" />
           <entry key="png" value="27" />
           <entry key="properties" value="6" />
           <entry key="rnc" value="3" />
@@ -171,7 +68,7 @@
           <entry key="HTML" value="2" />
           <entry key="Image" value="209" />
           <entry key="JAVA" value="59" />
-          <entry key="JSP" value="86" />
+          <entry key="JSP" value="89" />
           <entry key="JavaScript" value="11" />
           <entry key="Properties" value="6" />
           <entry key="RNG Compact" value="3" />
@@ -187,7 +84,7 @@
           <entry key="java" value="356" />
           <entry key="jsp" value="2070" />
           <entry key="properties" value="22" />
-          <entry key="txt" value="45" />
+          <entry key="txt" value="59" />
           <entry key="xml" value="238" />
         </counts>
       </usages-collector>
@@ -197,7 +94,7 @@
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="356" />
           <entry key="JSP" value="2070" />
-          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="PLAIN_TEXT" value="59" />
           <entry key="Properties" value="22" />
           <entry key="SQL" value="25" />
           <entry key="XML" value="213" />
@@ -220,11 +117,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="95">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="321" lean-forward="true" selection-start-line="225" selection-start-column="4" selection-end-line="321" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="223" column="81" selection-start-line="223" selection-start-column="81" selection-end-line="223" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="62" column="108" lean-forward="true" selection-start-line="62" selection-start-column="108" selection-end-line="62" selection-end-column="108" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -293,7 +223,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/fileinput.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/index.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/detail.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/user.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp" />
@@ -302,7 +231,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp" />
@@ -313,6 +241,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp" />
       </list>
     </option>
   </component>
@@ -359,8 +289,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="62" />
+    <option name="y" value="17" />
     <option name="width" value="1943" />
     <option name="height" value="993" />
   </component>
@@ -381,6 +312,66 @@
               <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -393,7 +384,7 @@
     <property name="SearchEverywhereHistoryKey" value="bannerimg&#9;ACTION&#9;null&#10;upload&#9;null&#9;null&#10;findfun&#9;PSI&#9;JAVA://com.sun.tools.javac.comp.Resolve#findFun&#10;find&#9;FILE&#9;file://D:/work/second_hand_commodity_trading_mall/src/main/webapp/img/findfun.png&#10;sidebarController&#9;null&#9;null&#10;鲁大&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550391365162" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550397885964" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/项目/enenjoy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -655,7 +646,7 @@
       <workItem from="1550286902298" duration="17810000" />
       <workItem from="1550380857423" duration="2224000" />
       <workItem from="1550383534349" duration="183000" />
-      <workItem from="1550390911393" duration="295000" />
+      <workItem from="1550390911393" duration="2458000" />
     </task>
     <task id="LOCAL-00001" summary="root">
       <created>1550079083409</created>
@@ -706,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550338882431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="动图">
+      <created>1550391552635</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550391552635</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84172000" />
+    <option name="totallyTimeSpent" value="86335000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -722,9 +720,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="11" width="1554" height="784" extended-state="0" />
+    <frame x="50" y="14" width="1554" height="794" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24598931" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18850267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -735,17 +734,17 @@
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.424" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.38190183" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.42331287" />
+      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.16163142" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.2549575" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32822084" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.5889571" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32718894" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.326284" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49933156" weight="0.29601228" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49933156" weight="0.24018127" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50066847" side_tool="true" weight="0.58678955" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -755,7 +754,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.37967914" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.09893048" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
@@ -842,30 +841,10 @@
     <MESSAGE value="更改提交自媒体账号页面" />
     <MESSAGE value="对显示页修改" />
     <MESSAGE value="对登陆页，个人页修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="对登陆页，个人页修改" />
+    <MESSAGE value="动图" />
+    <option name="LAST_COMMIT_MESSAGE" value="动图" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="392" column="53" lean-forward="true" selection-start-line="392" selection-start-column="53" selection-end-line="392" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="214" column="27" selection-start-line="214" selection-start-column="27" selection-end-line="214" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/impl/GoodsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -993,8 +972,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="95">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="321" lean-forward="true" selection-start-line="225" selection-start-column="4" selection-end-line="321" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="223" column="81" selection-start-line="223" selection-start-column="81" selection-end-line="223" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="62" column="108" lean-forward="true" selection-start-line="62" selection-start-column="108" selection-end-line="62" selection-end-column="108" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,7 +1010,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>enenjoy:war exploded</last-edited>
+          <last-edited>second_hand_commodity_trading_mall:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1052,11 +1058,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|enenjoy</last-edited>
+          <last-edited>second_hand_commodity_trading_mall</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
