@@ -36,9 +36,6 @@
             <a href="<%=basePath%>goods/homeGoods">
                 <h1 class="logo"></h1>
             </a>
-            <a href="<%=basePath%>goods/homeGoods">
-                <div class="logo"></div>
-            </a>
         </div>
         <!--
             
@@ -215,7 +212,7 @@
         //minImageHeight: 50,//图片的最小高度
         //maxImageWidth: 1000,//图片的最大宽度
         //maxImageHeight: 1000,//图片的最大高度
-        //maxFileSize: 0,//单位为kb，如果为0表示不限制文件大小
+        maxFileSize: 0,//单位为kb，如果为0表示不限制文件大小
         //minFileCount: 0,
         maxFileCount: 3, //表示允许同时上传的最大文件个数
         enctype: 'multipart/form-data',

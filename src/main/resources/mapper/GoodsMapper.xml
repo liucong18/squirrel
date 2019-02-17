@@ -6,8 +6,8 @@
     <result column="catelog_id" property="catelogId" jdbcType="INTEGER" />
     <result column="user_id" property="userId" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
-    <result column="price" property="price" jdbcType="REAL" />
-    <result column="real_price" property="realPrice" jdbcType="REAL" />
+    <result column="price" property="price" jdbcType="VARCHAR" />
+    <result column="real_price" property="realPrice" jdbcType="VARCHAR" />
     <result column="start_time" property="startTime" jdbcType="VARCHAR" />
     <result column="end_time" property="endTime" jdbcType="VARCHAR" />
     <result column="commet_num" property="commetNum" jdbcType="INTEGER" />
@@ -80,7 +80,7 @@
     end_time, polish_time, commet_num, describle,
     zhanghaoId, weChat, fans, TEL, weiZhi)
     values (#{id,jdbcType=INTEGER}, #{catelogId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER},
-    #{name,jdbcType=VARCHAR}, #{price,jdbcType=REAL}, #{realPrice,jdbcType=REAL}, #{startTime,jdbcType=VARCHAR},
+    #{name,jdbcType=VARCHAR}, #{price,jdbcType=VARCHAR}, #{realPrice,jdbcType=VARCHAR}, #{startTime,jdbcType=VARCHAR},
     #{endTime,jdbcType=VARCHAR}, #{polishTime,jdbcType=VARCHAR}, #{commetNum,jdbcType=INTEGER}, #{describle,jdbcType=LONGVARCHAR},
     #{zhanghaoId,jdbcType=VARCHAR}, #{weChat,jdbcType=VARCHAR}, #{fans,jdbcType=VARCHAR}, #{TEL,jdbcType=VARCHAR}, #{weiZhi,jdbcType=VARCHAR})
   </insert>
@@ -150,10 +150,10 @@
         #{name,jdbcType=VARCHAR},
       </if>
       <if test="price != null" >
-        #{price,jdbcType=REAL},
+        #{price,jdbcType=VARCHAR},
       </if>
       <if test="realPrice != null" >
-        #{realPrice,jdbcType=REAL},
+        #{realPrice,jdbcType=VARCHAR},
       </if>
       <if test="startTime != null" >
         #{startTime,jdbcType=VARCHAR},
@@ -200,10 +200,10 @@
         name = #{name,jdbcType=VARCHAR},
       </if>
       <if test="price != null" >
-        price = #{price,jdbcType=REAL},
+        price = #{price,jdbcType=VARCHAR},
       </if>
       <if test="realPrice != null" >
-        real_price = #{realPrice,jdbcType=REAL},
+        real_price = #{realPrice,jdbcType=VARCHAR},
       </if>
       <if test="startTime != null" >
         start_time = #{startTime,jdbcType=VARCHAR},
@@ -243,8 +243,8 @@
     set catelog_id = #{catelogId,jdbcType=INTEGER},
       user_id = #{userId,jdbcType=INTEGER},
       name = #{name,jdbcType=VARCHAR},
-      price = #{price,jdbcType=REAL},
-      real_price = #{realPrice,jdbcType=REAL},
+      price = #{price,jdbcType=VARCHAR},
+      real_price = #{realPrice,jdbcType=VARCHAR},
       start_time = #{startTime,jdbcType=VARCHAR},
       end_time = #{endTime,jdbcType=VARCHAR},
       polish_time = #{polishTime,jdbcType=VARCHAR},
@@ -262,8 +262,8 @@
     set catelog_id = #{catelogId,jdbcType=INTEGER},
       user_id = #{userId,jdbcType=INTEGER},
       name = #{name,jdbcType=VARCHAR},
-      price = #{price,jdbcType=REAL},
-      real_price = #{realPrice,jdbcType=REAL},
+      price = #{price,jdbcType=VARCHAR},
+      real_price = #{realPrice,jdbcType=VARCHAR},
       start_time = #{startTime,jdbcType=VARCHAR},
       end_time = #{endTime,jdbcType=VARCHAR},
       polish_time = #{polishTime,jdbcType=VARCHAR},

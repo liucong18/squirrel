@@ -25,9 +25,6 @@
             <a href="/goods/homeGoods">
                 <h1 class="logo"></h1>
             </a>
-            <a href="<%=basePath%>goods/homeGoods">
-                <div class="logo"></div>
-            </a>
         </div>
         <div id="user_nav">
             <div class="user_info">

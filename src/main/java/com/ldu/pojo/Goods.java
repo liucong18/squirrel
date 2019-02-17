@@ -9,9 +9,9 @@ public class Goods {
 
     private String name;
 
-    private Float price;
+    private String price;
 
-    private Float realPrice;
+    private String realPrice;
 
     private String startTime;
 
@@ -81,19 +81,19 @@ public class Goods {
         this.name = name == null ? null : name.trim();
     }
 
-    public Float getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(Float price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
-    public Float getRealPrice() {
+    public String getRealPrice() {
         return realPrice;
     }
 
-    public void setRealPrice(Float realPrice) {
+    public void setRealPrice(String realPrice) {
         this.realPrice = realPrice;
     }
 

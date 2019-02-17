@@ -5,27 +5,117 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="second_hand_commodity_trading_mall:war" />
+      <artifact name="enenjoy:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3730e2da-4623-46c6-a3c3-792131bcf003" name="Default" comment="对登陆页，个人页修改">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/enenjoy_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/CatelogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/CatelogController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/userList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/CatelogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/CatelogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/CommentsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/CommentsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/GoodsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/GoodsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/ImageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/ImageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/NoticeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/NoticeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/ReplyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/ReplyMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Catelog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Catelog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Comments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Comments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/GoodsExtend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/GoodsExtend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Notice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Reply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Reply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/CatelogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/CatelogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/ImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/ImageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/CatelogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/CatelogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/ImageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/ImageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/CellRegion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/CellRegion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/MD5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/MD5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/ReadExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/ReadExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/UserGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/UserGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ldu/util/WriteExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/WriteExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/GoodsMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/catelogGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/homeGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/homeGoods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/searchGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/pubGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/basic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/goods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/goods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/01974fb4-da95-4191-8c80-e89db4a4e7a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/0742ec19-ab85-4219-a829-fa833b0d1d39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/0a281a3b-f4e1-445b-b7a0-3f7a829849bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/20afe4b7-b64b-4434-8c6d-3263985e1bfa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/24e34c65-1ff9-4eba-b97a-7cd8d8b4ecb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/26c2c89b-9312-4759-88a0-7f73f86c549d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/27c63995-9ff9-453d-b24f-d9aa95dcc138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/2952fe1e-0633-4f9d-9249-f999603235f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/2f3fc053-090d-49de-a184-39e78cb4fc7e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/370298f4-e81c-46b6-9dbd-83118922bb22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/3c95fa0d-d5e3-40f7-826f-cafe6e6af740.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4859432c-5955-411b-bdaa-d65275a9a61a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4b85e359-6fc8-4c12-93b9-edec64320f67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4e976d24-a4de-4690-94f7-971507c622e6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4ff2f2e2-5b3e-4ce6-9161-fb09cffea277.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/58a655a4-3bb1-4d63-87c1-257865393741.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/5aceed48-21f6-4aa8-9cfa-6bb831694c3a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/5f54d5d7-876a-4ee9-b8a6-9dd94239b58b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/68bac661-f69f-4ec5-8f21-f92ec1970547.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/6c8a2d88-ab90-488e-a468-d379c730bd46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/709c748b-f28c-4a85-8b3a-88f0783c5a7a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/717a89d2-244a-414a-aeb3-134ab8afcc19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/75131adc-b3a8-495b-94a5-c7b144c41a0e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/75599f16-ef35-4013-8c71-9f8c1682ad64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/786c6d89-b27a-4a41-8f96-352aed2a9e6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/80c2975d-e5d6-41b9-9866-19e46865dddb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/813bd976-ad66-4fd5-ae5d-eb83e8f6e4ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/816c281c-3c37-4e93-beb9-074276838bb5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/8222a2f2-6287-4530-a399-da7696b73fdf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/83e6a0be-cf28-4d74-8db6-ed1e3bafdec0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/85d132d0-bb61-4519-a08e-ec29937e4426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/98fb927e-639f-4e02-ae37-44b0f1faf541.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/9d0782df-277f-45e6-b3b4-c424d688e312.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/9efb1d9a-072e-42af-b10b-e7abefa815e6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/a90f891e-9b74-4f92-a800-03ef83c0a69c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ae2bdee2-0abb-428d-961f-eadf9905bf4c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ba4d7cc8-639a-4f31-af46-7a1174fbb924.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/bec28d84-7d5e-4d50-8bb2-91409de00859.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/c378a8bb-0561-42bb-b77e-c89ed375efca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/d01acfd0-3b87-4983-b46d-d2864e722437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/d8ca0740-bdf3-416b-8557-8384e7299924.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/dee36400-df6a-46ac-96df-d71a7c42f328.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/e26183d0-244c-4da4-86dd-387d0ef8dfeb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/e5d4b13a-61a1-438d-9c2b-d5f7c4e2a402.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/e80e60a1-859c-4277-9a6a-c6bfe95dcf7a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ec95d24f-9d52-413f-b711-3ed3886b054c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f2857094-1642-4d22-88b8-d06c290944fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f34e49f8-bbef-4e1d-8138-e57aa97e408a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f4ccf238-e458-4dda-9ed8-88bca2d42309.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f6e6a94d-e001-4fac-b8d3-2f99a9689a61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f80708c6-e242-465d-9f0e-18f79f0d0b00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f845fd90-db8a-4701-aa22-0968b2694fb0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f897a3fe-c08d-46f3-b6f4-5e35b2ecbc3c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f91335d4-784b-443a-bb68-34645ec164f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/fcf6b8f5-8c3a-4b19-83f3-1c3d19903fbd.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,14 +131,17 @@
     <session id="755923861">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,18 +149,18 @@
           <entry key="JPG" value="6" />
           <entry key="class" value="1" />
           <entry key="css" value="80" />
-          <entry key="gif" value="18" />
+          <entry key="gif" value="24" />
           <entry key="html" value="2" />
-          <entry key="java" value="52" />
-          <entry key="jpg" value="115" />
+          <entry key="java" value="59" />
+          <entry key="jpg" value="152" />
           <entry key="js" value="11" />
-          <entry key="jsp" value="83" />
+          <entry key="jsp" value="86" />
           <entry key="png" value="27" />
-          <entry key="properties" value="3" />
+          <entry key="properties" value="6" />
           <entry key="rnc" value="3" />
           <entry key="sql" value="1" />
           <entry key="svg" value="1" />
-          <entry key="xml" value="17" />
+          <entry key="xml" value="24" />
           <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
@@ -76,15 +169,15 @@
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="80" />
           <entry key="HTML" value="2" />
-          <entry key="Image" value="166" />
-          <entry key="JAVA" value="52" />
-          <entry key="JSP" value="83" />
+          <entry key="Image" value="209" />
+          <entry key="JAVA" value="59" />
+          <entry key="JSP" value="86" />
           <entry key="JavaScript" value="11" />
-          <entry key="Properties" value="3" />
+          <entry key="Properties" value="6" />
           <entry key="RNG Compact" value="3" />
           <entry key="SQL" value="1" />
           <entry key="SVG" value="1" />
-          <entry key="XML" value="18" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -92,10 +185,10 @@
           <entry key="css" value="174" />
           <entry key="html" value="1" />
           <entry key="java" value="356" />
-          <entry key="jsp" value="2066" />
-          <entry key="properties" value="15" />
+          <entry key="jsp" value="2070" />
+          <entry key="properties" value="22" />
           <entry key="txt" value="45" />
-          <entry key="xml" value="211" />
+          <entry key="xml" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -103,11 +196,11 @@
           <entry key="CSS" value="174" />
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="356" />
-          <entry key="JSP" value="2066" />
+          <entry key="JSP" value="2070" />
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Properties" value="15" />
+          <entry key="Properties" value="22" />
           <entry key="SQL" value="25" />
-          <entry key="XML" value="186" />
+          <entry key="XML" value="213" />
         </counts>
       </usages-collector>
     </session>
@@ -115,67 +208,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="108" column="33" lean-forward="true" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="385" column="10" lean-forward="true" selection-start-line="385" selection-start-column="10" selection-end-line="385" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/GoodsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+            <state relative-caret-position="198">
+              <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
               <folding>
-                <element signature="e#1742#1749#0" expanded="true" />
+                <element signature="e#1610#1611#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/UserController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1140">
-              <caret line="65" column="52" lean-forward="true" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+            <state relative-caret-position="152">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -184,7 +233,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>C2C内容电商平台</find>
       <find>搜一搜</find>
       <find>upload</find>
       <find>Basic.</find>
@@ -214,6 +262,7 @@
       <find>catelogGoods</find>
       <find>首页</find>
       <find>class=&quot;logo&quot;&gt;</find>
+      <find>price</find>
     </findStrings>
     <replaceStrings>
       <replace>龙院二手工坊</replace>
@@ -231,7 +280,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/index.bundle.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap-datetimepicker.min.css" />
@@ -243,9 +291,6 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/fileinput.min.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/index.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/detail.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" />
@@ -254,7 +299,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/editGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/userhome.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/GoodsController.java" />
@@ -262,7 +306,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -283,7 +333,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\Users\lc\Desktop\soft\maven-repository" />
-        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="mavenHome" value="$USER_HOME$/Desktop/soft/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="C:\Users\lc\Desktop\soft\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -300,15 +350,19 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="squirrel Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="squirrel Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-49" />
-    <option name="y" value="10" />
+    <option name="x" value="-10" />
     <option name="width" value="1943" />
-    <option name="height" value="979" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -327,100 +381,6 @@
               <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ldu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ldu" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="squirrel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_hand_commodity_trading_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -433,21 +393,24 @@
     <property name="SearchEverywhereHistoryKey" value="bannerimg&#9;ACTION&#9;null&#10;upload&#9;null&#9;null&#10;findfun&#9;PSI&#9;JAVA://com.sun.tools.javac.comp.Resolve#findFun&#10;find&#9;FILE&#9;file://D:/work/second_hand_commodity_trading_mall/src/main/webapp/img/findfun.png&#10;sidebarController&#9;null&#9;null&#10;鲁大&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550338777340" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550391365162" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/项目/enenjoy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\second_hand_commodity_trading_mall\target\squirrel\upload" />
+      <recent name="D:\work\second_hand_commodity_trading_mall\src\main\webapp\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\second_hand_commodity_trading_mall\target\squirrel\upload" />
       <recent name="D:\work\second_hand_commodity_trading_mall\src\main\webapp\img" />
       <recent name="D:\squirrel-master\src\main\webapp\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\second_hand_commodity_trading_mall\src\main\webapp\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,12 +438,130 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="second_hand_commodity_trading_mall" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="second_hand_commodity_trading_mall" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="second_hand_commodity_trading_mall:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_squirrel_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7957" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="second_hand_commodity_trading_mall:war" />
+        </option>
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -550,77 +631,6 @@
         </option>
       </method>
     </configuration>
-    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="second_hand_commodity_trading_mall:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_squirrel_2" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="7957" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="second_hand_commodity_trading_mall:war" />
-        </option>
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -642,7 +652,10 @@
       <workItem from="1550113573903" duration="4805000" />
       <workItem from="1550208742000" duration="1440000" />
       <workItem from="1550230233341" duration="18524000" />
-      <workItem from="1550286902298" duration="12998000" />
+      <workItem from="1550286902298" duration="17810000" />
+      <workItem from="1550380857423" duration="2224000" />
+      <workItem from="1550383534349" duration="183000" />
+      <workItem from="1550390911393" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="root">
       <created>1550079083409</created>
@@ -686,11 +699,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550338741358</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="对登陆页，个人页修改">
+      <created>1550338882431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550338882431</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76658000" />
+    <option name="totallyTimeSpent" value="84172000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -702,9 +722,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-39" y="8" width="1554" height="783" extended-state="0" />
+    <frame x="81" y="11" width="1554" height="784" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22526738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24598931" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -716,17 +736,17 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.424" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.6574501" />
+      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.38190183" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.2549575" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32934132" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32411674" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32822084" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5889571" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32718894" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.58678955" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49933156" weight="0.29601228" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50066847" side_tool="true" weight="0.58678955" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -735,7 +755,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.10455764" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.37967914" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
@@ -825,249 +845,156 @@
     <option name="LAST_COMMIT_MESSAGE" value="对登陆页，个人页修改" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/HuoShan.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/title.png" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/detail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211755">
-          <caret line="11145" column="30" selection-start-line="11145" selection-start-column="30" selection-end-line="11145" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141987">
-          <caret line="7473" column="10" selection-start-line="7473" selection-start-column="10" selection-end-line="7473" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/photo4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/photo3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/photo2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/photo1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/photo5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/soft/maven-repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1-sources.jar!/org/apache/commons/fileupload/FileUploadBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="964" selection-start-line="964" selection-end-line="964" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/soft/maven-repository/javax/servlet/javax.servlet-api/3.1-b09/javax.servlet-api-3.1-b09-sources.jar!/javax/servlet/http/HttpServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="740" selection-start-line="740" selection-end-line="740" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/user.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/photo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-596">
-          <caret line="61" column="117" selection-start-line="61" selection-start-column="117" selection-end-line="61" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/editGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/Basic.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/DaYu.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/DouYin.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/KuaiShou.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/loading.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/loading-sm.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/QuTouTiao.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/ShouHu.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/ShouYe.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/title.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/TouTiao.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/XiaoKa.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/YiDian.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/XiGua.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/BaiJia.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/userhome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/QiEr.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/photo.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/p_logo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/neirou.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="272" column="46" lean-forward="true" selection-start-line="272" selection-start-column="46" selection-end-line="272" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="108" column="33" lean-forward="true" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/CatelogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/soft/maven-repository/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="385" column="10" lean-forward="true" selection-start-line="385" selection-start-column="10" selection-end-line="385" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
-          <folding>
-            <element signature="e#1742#1749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140">
-          <caret line="65" column="52" lean-forward="true" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="240">
+          <caret line="392" column="53" lean-forward="true" selection-start-line="392" selection-start-column="53" selection-end-line="392" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="249">
+          <caret line="214" column="27" selection-start-line="214" selection-start-column="27" selection-end-line="214" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/dao/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="242" column="78" selection-start-line="242" selection-start-column="78" selection-end-line="242" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/CatelogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/fcf6b8f5-8c3a-4b19-83f3-1c3d19903fbd.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/f2857094-1642-4d22-88b8-d06c290944fe.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/26c2c89b-9312-4759-88a0-7f73f86c549d.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/24e34c65-1ff9-4eba-b97a-7cd8d8b4ecb1.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/20afe4b7-b64b-4434-8c6d-3263985e1bfa.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/9efb1d9a-072e-42af-b10b-e7abefa815e6.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/9d0782df-277f-45e6-b3b4-c424d688e312.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/6c8a2d88-ab90-488e-a468-d379c730bd46.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/5f54d5d7-876a-4ee9-b8a6-9dd94239b58b.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/5aceed48-21f6-4aa8-9cfa-6bb831694c3a.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/27c63995-9ff9-453d-b24f-d9aa95dcc138.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/58a655a4-3bb1-4d63-87c1-257865393741.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/68bac661-f69f-4ec5-8f21-f92ec1970547.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/80c2975d-e5d6-41b9-9866-19e46865dddb.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/83e6a0be-cf28-4d74-8db6-ed1e3bafdec0.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/85d132d0-bb61-4519-a08e-ec29937e4426.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/709c748b-f28c-4a85-8b3a-88f0783c5a7a.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/717a89d2-244a-414a-aeb3-134ab8afcc19.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/0742ec19-ab85-4219-a829-fa833b0d1d39.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/786c6d89-b27a-4a41-8f96-352aed2a9e6c.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/813bd976-ad66-4fd5-ae5d-eb83e8f6e4ed.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/816c281c-3c37-4e93-beb9-074276838bb5.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/0a281a3b-f4e1-445b-b7a0-3f7a829849bc.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/2f3fc053-090d-49de-a184-39e78cb4fc7e.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/3c95fa0d-d5e3-40f7-826f-cafe6e6af740.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/4b85e359-6fc8-4c12-93b9-edec64320f67.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/4e976d24-a4de-4690-94f7-971507c622e6.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/4ff2f2e2-5b3e-4ce6-9161-fb09cffea277.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/案例图Gif_20190217_024358.gif" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/043d9186-78ef-4bbf-b275-6f504e181e79.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/8193662e-5e13-480b-bb21-6f4ce91a48a7.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/squirrel/upload/8193662e-5e13-480b-bb21-6f4ce91a4801.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/squirrel/img/neirou.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/squirrel/img/loading.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/squirrel/img/loading-sm.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/squirrel/img/p_logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/conf/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/squirrel/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+          <folding>
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1077,7 +1004,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>second_hand_commodity_trading_mall:war</last-edited>
+          <last-edited>enenjoy:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1125,12 +1052,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>second_hand_commodity_trading_mall</last-edited>
+          <last-edited>Web|enenjoy</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

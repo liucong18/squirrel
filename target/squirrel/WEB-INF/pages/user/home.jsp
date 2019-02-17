@@ -26,9 +26,6 @@
             <a href="/goods/homeGoods">
                 <h1 class="logo"></h1>
             </a>
-            <a href="<%=basePath%>goods/homeGoods">
-                <div class="logo"></div>
-            </a>
         </div>
         <!--
             描述：左侧个人中心栏
